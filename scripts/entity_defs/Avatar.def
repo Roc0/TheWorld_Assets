@@ -1,0 +1,98 @@
+<root>
+	<Volatile>
+		<position/>
+		<!--<position> 0 </position> Don't update-->
+		<yaw/>
+		<!--<pitch> 20 </pitch>-->
+		<pitch/>
+		<roll/>
+
+		<!-- Optimize VolatileInfo. For VolatileInfo, please refer to the API documentation. After optimization, the server will not synchronize the Y coordinate of the entity when the entity is on the ground (navigate). The client needs to determine the entity isOnGround. If the entity is on the ground, it needs to be calculated on the ground.
+			Pathfinding in high-rise buildings may need to turn off optimization and let the server synchronize Y so that the upper and lower floors can be accurately calculated.
+			(Default is true if not filled)
+		-->
+		<optimized> true </optimized>
+	</Volatile>
+
+	<Interfaces>
+		<Interface>	GameObject		</Interface>
+		<Interface>	State			</Interface>
+		<Interface>	Flags			</Interface>
+		<Interface>	Motion			</Interface>
+		<Interface>	SkillBox		</Interface>
+		<Interface>	Combat			</Interface>
+		<Interface>	Spell			</Interface>
+		<Interface>	Teleport		</Interface>
+		<Interface>	Dialog			</Interface>
+	</Interfaces>
+
+  <Components>
+		<component1>			
+			<Type> 			Test		</Type>
+			<Persistent>	true		</Persistent>
+		</component1>
+
+		<component2>			
+			<Type> 			Test		</Type>
+			<Persistent>	false		</Persistent>
+		</component2>
+
+		<component3>			
+			<Type> 			TestNoBase	</Type>
+      		<Persistent>	true		</Persistent>
+		</component3>
+	</Components>
+
+	<Properties>
+		<roleType>
+			<Type>			UINT8		</Type>
+			<Flags>			BASE		</Flags>
+			<Persistent>	true		</Persistent>
+		</roleType>
+
+		<level>
+			<Utype>			41002		</Utype>
+			<Type>			UINT16		</Type>
+			<Flags>			CELL_PUBLIC_AND_OWN			</Flags>
+			<Persistent>	true		</Persistent>
+		</level>
+		
+		<!--
+		<playerName>
+			<Type>			UNICODE		</Type>
+			<Flags>			ALL_CLIENTS	</Flags>
+			<Persistent>	true		</Persistent>
+			<Index> 		UNIQUE 		</Index> Attribute index category, UNIQUE, INDEX, respectively corresponding to unique index, ordinary index
+			<DatabaseLength> 32			</DatabaseLength>
+		</playerName>
+		-->
+
+		<own_val>
+			<Type>			UINT16		</Type>
+			<Flags>			OWN_CLIENT	</Flags>
+		</own_val>
+	</Properties>
+
+	<BaseMethods>
+		<createCell>
+			<Arg>			ENTITYCALL	</Arg>
+		</createCell>
+	</BaseMethods>
+
+	<CellMethods>
+		<relive>
+			<Exposed/>
+			<Arg>			UINT8		</Arg>
+		</relive>
+
+		<jump>
+			<Exposed/>
+		</jump>
+	</CellMethods>
+
+	<ClientMethods>
+		<onJump>
+		</onJump>
+	</ClientMethods>
+</root>
+

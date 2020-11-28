@@ -1,0 +1,17 @@
+<root>
+	<!--
+		Entity registration file (<your asset library>/scripts/entities.xml)
+		For detailed instructions, please refer to: http://kbengine.org/cn/docs/configuration/entities.html
+		http://www.kbengine.org/cn/docs/programming/entitydef.html
+	-->
+	
+	<Account hasClient="true"></Account>
+	<Avatar hasClient="true"></Avatar> <!-- <Avatar hasCell="true" hasBase="true" hasClient="true"></Avatar> -->
+	<Monster hasClient="true"></Monster>
+	<NPC hasClient="true"></NPC>
+	<Gate hasClient="true"></Gate>
+	<Spaces/>
+	<Space/>
+	<SpaceDuplicate/>
+	<SpawnPoint/>	
+</root>
