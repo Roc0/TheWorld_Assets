@@ -1,4 +1,5 @@
 <root>
+  <!-- NPC -->
   <gameObject name="10001001">
     <transform>
       <position>
@@ -18,6 +19,7 @@
       </scale>
     </transform>
   </gameObject>
+  <!-- Monster -->
   <gameObject name="20001001">
     <transform>
       <position>
@@ -37,6 +39,8 @@
       </scale>
     </transform>
   </gameObject>
+  <!-- Monster -->
+  <!--
   <gameObject name="20001001">
     <transform>
       <position>
@@ -56,6 +60,9 @@
       </scale>
     </transform>
   </gameObject>
+  -->
+  <!-- Monster -->
+  <!--
   <gameObject name="20001001">
     <transform>
       <position>
@@ -75,6 +82,9 @@
       </scale>
     </transform>
   </gameObject>
+  -->
+  <!-- Monster -->
+  <!--
   <gameObject name="20001001">
     <transform>
       <position>
@@ -94,6 +104,9 @@
       </scale>
     </transform>
   </gameObject>
+  -->
+  <!-- Monster -->
+  <!--
   <gameObject name="20001001">
     <transform>
       <position>
@@ -113,6 +126,9 @@
       </scale>
     </transform>
   </gameObject>
+  -->
+  <!-- Monster -->
+  <!--
   <gameObject name="20001001">
     <transform>
       <position>
@@ -132,6 +148,9 @@
       </scale>
     </transform>
   </gameObject>
+  -->
+  <!-- Monster -->
+  <!--
   <gameObject name="20001001">
     <transform>
       <position>
@@ -151,6 +170,9 @@
       </scale>
     </transform>
   </gameObject>
+  -->
+  <!-- Monster -->
+  <!--
   <gameObject name="20001001">
     <transform>
       <position>
@@ -170,6 +192,9 @@
       </scale>
     </transform>
   </gameObject>
+  -->
+  <!-- Monster -->
+  <!--
   <gameObject name="20001001">
     <transform>
       <position>
@@ -189,6 +214,9 @@
       </scale>
     </transform>
   </gameObject>
+  -->
+  <!-- Monster -->
+  <!--
   <gameObject name="20001001">
     <transform>
       <position>
@@ -208,6 +236,9 @@
       </scale>
     </transform>
   </gameObject>
+  -->
+  <!-- Monster -->
+  <!--
   <gameObject name="20001001">
     <transform>
       <position>
@@ -227,6 +258,9 @@
       </scale>
     </transform>
   </gameObject>
+  -->
+  <!-- Monster -->
+  <!--
   <gameObject name="20001001">
     <transform>
       <position>
@@ -246,6 +280,9 @@
       </scale>
     </transform>
   </gameObject>
+  -->
+  <!-- Monster -->
+  <!--
   <gameObject name="20001001">
     <transform>
       <position>
@@ -265,6 +302,9 @@
       </scale>
     </transform>
   </gameObject>
+  -->
+  <!-- Monster -->
+  <!--
   <gameObject name="20001001">
     <transform>
       <position>
@@ -284,6 +324,9 @@
       </scale>
     </transform>
   </gameObject>
+  -->
+  <!-- Monster -->
+  <!--
   <gameObject name="20001001">
     <transform>
       <position>
@@ -303,6 +346,9 @@
       </scale>
     </transform>
   </gameObject>
+  -->
+  <!-- Monster -->
+  <!--
   <gameObject name="20001001">
     <transform>
       <position>
@@ -322,6 +368,9 @@
       </scale>
     </transform>
   </gameObject>
+  -->
+  <!-- Monster -->
+  <!--
   <gameObject name="20001001">
     <transform>
       <position>
@@ -341,6 +390,9 @@
       </scale>
     </transform>
   </gameObject>
+  -->
+  <!-- Monster -->
+  <!--
   <gameObject name="20001001">
     <transform>
       <position>
@@ -360,6 +412,9 @@
       </scale>
     </transform>
   </gameObject>
+  -->
+  <!-- Monster -->
+  <!--
   <gameObject name="20001001">
     <transform>
       <position>
@@ -379,6 +434,9 @@
       </scale>
     </transform>
   </gameObject>
+  -->
+  <!-- Monster -->
+  <!--
   <gameObject name="20001001">
     <transform>
       <position>
@@ -398,6 +456,9 @@
       </scale>
     </transform>
   </gameObject>
+  -->
+  <!-- Monster -->
+  <!--
   <gameObject name="20001001">
     <transform>
       <position>
@@ -417,6 +478,9 @@
       </scale>
     </transform>
   </gameObject>
+  -->
+  <!-- Monster -->
+  <!--
   <gameObject name="20001001">
     <transform>
       <position>
@@ -436,6 +500,9 @@
       </scale>
     </transform>
   </gameObject>
+  -->
+  <!-- Monster -->
+  <!--
   <gameObject name="20001001">
     <transform>
       <position>
@@ -455,6 +522,9 @@
       </scale>
     </transform>
   </gameObject>
+  -->
+  <!-- Monster -->
+  <!--
   <gameObject name="20001001">
     <transform>
       <position>
@@ -474,6 +544,9 @@
       </scale>
     </transform>
   </gameObject>
+  -->
+  <!-- Monster -->
+  <!--
   <gameObject name="20001001">
     <transform>
       <position>
@@ -493,6 +566,9 @@
       </scale>
     </transform>
   </gameObject>
+  -->
+  <!-- Monster -->
+  <!--
   <gameObject name="20001001">
     <transform>
       <position>
@@ -512,6 +588,9 @@
       </scale>
     </transform>
   </gameObject>
+  -->
+  <!-- Monster -->
+  <!--
   <gameObject name="20001001">
     <transform>
       <position>
@@ -531,6 +610,9 @@
       </scale>
     </transform>
   </gameObject>
+  -->
+  <!-- Monster -->
+  <!--
   <gameObject name="20001001">
     <transform>
       <position>
@@ -550,6 +632,9 @@
       </scale>
     </transform>
   </gameObject>
+  -->
+  <!-- Monster -->
+  <!--
   <gameObject name="20001001">
     <transform>
       <position>
@@ -569,6 +654,9 @@
       </scale>
     </transform>
   </gameObject>
+  -->
+  <!-- Monster -->
+  <!--
   <gameObject name="20001001">
     <transform>
       <position>
@@ -588,6 +676,9 @@
       </scale>
     </transform>
   </gameObject>
+  -->
+  <!-- Monster layer=1 -->
+  <!--
   <gameObject name="20002001">
     <transform>
       <position>
@@ -607,6 +698,8 @@
       </scale>
     </transform>
   </gameObject>
+  -->
+  <!-- Monster layer=1 -->
   <gameObject name="20002001">
     <transform>
       <position>
