@@ -22,8 +22,8 @@ class Space(KBEngine.Entity, GameObject):
 		self.createCellEntityInNewSpace(None)
 		
 		self.spaceUTypeB = self.cellData["spaceUType"]
-		
 		self.spaceResName = d_spaces.datas.get(self.spaceUTypeB)['resPath']
+		DEBUG_MSG("Space::__init__: spaceUTypeB %i, spaceResName %s" % (self.spaceUTypeB, self.spaceResName))
 		
 		# The total number of entities created on this map
 		self.tmpCreateEntityDatas = copy.deepcopy(d_spaces_spawns.datas.get(self.spaceUTypeB, []))
@@ -34,6 +34,8 @@ class Space(KBEngine.Entity, GameObject):
 	def createSpawnPointDatas(self):
 		"""
 		"""
+		DEBUG_MSG("Space::createSpawnPointDatas: size self.tmpCreateEntityDatas %i" % (len(self.tmpCreateEntityDatas)))
+
 		res = r"scripts\data\spawnpoints\%s_spawnpoints.xml" % (self.spaceResName.replace("\\", "/").split("/")[-1])
 		if(len(self.spaceResName) == 0 or not KBEngine.hasRes(res)):
 			return
@@ -66,6 +68,8 @@ class Space(KBEngine.Entity, GameObject):
 			direction, \
 			scale, \
 			])
+
+		DEBUG_MSG("Space::createSpawnPointDatas: size self.tmpCreateEntityDatas %i" % (len(self.tmpCreateEntityDatas)))
 		
 	def spawnOnTimer(self, tid):
 		"""

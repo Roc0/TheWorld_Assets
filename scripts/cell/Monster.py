@@ -36,6 +36,8 @@ class Monster(KBEngine.Entity,
 		if self.modelID == 20002001:
 			self.layer = 1 
 			
+		DEBUG_MSG("%s::__init__: self.layer = %i" % (self.getScriptName(), self.layer))
+
 	def initEntity(self):
 		"""
 		virtual method.
