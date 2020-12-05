@@ -700,6 +700,7 @@
   </gameObject>
   -->
   <!-- Monster layer=1 -->
+  <!--
   <gameObject name="20002001">
     <transform>
       <position>
@@ -719,4 +720,5 @@
       </scale>
     </transform>
   </gameObject>
+  -->
 </root>
