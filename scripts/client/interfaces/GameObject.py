@@ -32,8 +32,9 @@ class GameObject:
 		"""
 		DEBUG_MSG("%s::set_name: %i changed:%s->%s" % (self.getScriptName(), self.id, oldValue, self.name))
 		
-		# Inform the presentation layer to change performance
+		# Inform the presentation layer to change name
 		KBEngine.fireEvent("set_name", json.dumps((self.id, self.name)))
+		KBEngine.fireEvent("set_class_name", json.dumps((self.id, self.getScriptName())))
 
 	def set_modelID(self, oldValue):
 		"""
