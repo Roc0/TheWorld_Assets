@@ -16,6 +16,6 @@ class Combat(CombatPropertys):
 			(self.getScriptName(), self.id, attackerID, skillID, damageType, damage))
 		
 		# Inform the presentation layer to change performance
-		KBEngine.fireEvent("recvDamage", json.dumps((self.id, attackerID, skillID, damageType, damage)))
+		KBEngine.fireEvent("recvDamage", json.dumps((self.id, attackerID, skillID, damageType, damage, self.HP)))
 		
 
