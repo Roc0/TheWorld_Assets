@@ -23,6 +23,8 @@ class CombatPropertys:
 		"""
 		DEBUG_MSG("%s::set_HP: %i changed:%s->%s" % (self.getScriptName(), self.id, oldValue, self.HP))
 		
+		KBEngine.fireEvent("set_HP", json.dumps((self.id, self.HP)))
+
 	def set_MP_Max(self, oldValue):
 		"""
 		Property method.
@@ -38,3 +40,5 @@ class CombatPropertys:
 		The server has set properties
 		"""
 		DEBUG_MSG("%s::set_MP: %i changed:%s->%s" % (self.getScriptName(), self.id, oldValue, self.MP))
+
+		KBEngine.fireEvent("set_MP", json.dumps((self.id, self.MP)))
