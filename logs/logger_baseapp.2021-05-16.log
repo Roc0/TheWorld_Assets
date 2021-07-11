@@ -1,0 +1,244 @@
+    INFO    baseapp-1 48140 7001  [2021-05-16 14:03:46 924] - -----------------------------------------------------------------------------------------
+
+
+    INFO    baseapp-1 48140 7001  [2021-05-16 14:03:46 926] - Resmgr::initialize: KBE_ROOT=D:/TheWorld/KBEngine/kbengine/
+    INFO    baseapp-1 48140 7001  [2021-05-16 14:03:46 926] - Resmgr::initialize: KBE_RES_PATH=D:/TheWorld/KBEngine/kbengine/kbe/res/;D:/TheWorld/Client/TheWorld_Assets/;D:/TheWorld/Client/TheWorld_Assets/scripts/;D:/TheWorld/Client/TheWorld_Assets/res/
+    INFO    baseapp-1 48140 7001  [2021-05-16 14:03:46 926] - Resmgr::initialize: KBE_BIN_PATH=D:/TheWorld/KBEngine/kbengine/kbe/bin/server/
+    INFO    baseapp-1 48140 7001  [2021-05-16 14:03:46 936] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.2.188 ( 192.168.2.188:20015 )
+    INFO    baseapp-1 48140 7001  [2021-05-16 14:03:46 937] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.2.188:20015, SOMAXCONN=511.
+    INFO    baseapp-1 48140 7001  [2021-05-16 14:03:46 938] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.2.188 ( 192.168.2.188:20005 )
+    INFO    baseapp-1 48140 7001  [2021-05-16 14:03:46 938] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.2.188:20005, SOMAXCONN=511.
+    INFO    baseapp-1 48140 7001  [2021-05-16 14:03:46 940] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.2.188 ( 192.168.2.188:64202 )
+    INFO    baseapp-1 48140 7001  [2021-05-16 14:03:46 940] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.2.188:64202, SOMAXCONN=511.
+    INFO    baseapp-1 48140 7001  [2021-05-16 14:03:46 940] - server-configs:
+    INFO    baseapp-1 48140 7001  [2021-05-16 14:03:46 940] - 	gameUpdateHertz : 10
+    INFO    baseapp-1 48140 7001  [2021-05-16 14:03:46 940] - 	entryScriptFile : kbemain
+    INFO    baseapp-1 48140 7001  [2021-05-16 14:03:46 941] - 	internalTcpAddr : 192.168.2.188:64202
+    INFO    baseapp-1 48140 7001  [2021-05-16 14:03:46 941] - 	externalTcpAddr : 192.168.2.188:20015
+    INFO    baseapp-1 48140 7001  [2021-05-16 14:03:46 941] - 	externalUdpAddr : 192.168.2.188:20005
+    INFO    baseapp-1 48140 7001  [2021-05-16 14:03:46 941] - 	componentID : 7001
+    INFO    baseapp-1 48140 7001  [2021-05-16 14:03:47 241] - Components::findLogger: found logger, addr:192.168.2.188:64155
+    INFO    baseapp-1 48140 7001  [2021-05-16 14:03:47 241] - Components::addComponent: reset orderLog, uid=48140!
+    INFO    baseapp-1 48140 7001  [2021-05-16 14:03:47 241] - Components::addComponent[logger], uid=48140, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 48140 7001  [2021-05-16 14:03:47 246] - ---- baseapp Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: DCFA95A4364DC44A8B8A14D3936CBE92. Config: Debug X64. Built: 12:09:11 May 16 2021. AppID: 7001. UID: 48140. PID: 25632 ----
+    INFO    baseapp-1 48140 7001  [2021-05-16 14:03:47 247] - Server Riccardo: 11th Gen Intel(R) Core(TM) i5-11400F @ 2.60GHz with 16645500kB RAM
+    INFO    baseapp-1 48140 7001  [2021-05-16 14:03:47 247] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    baseapp-1 48140 7001  [2021-05-16 14:03:47 247] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO    baseapp-1 48140 7001  [2021-05-16 14:03:47 435] - Script::install(): is successfully, Python=(3.7.3 (heads/master-dirty:5283b9b85, May 16 2021, 12:07:54) [MSC v.1928 64 bit (AMD64)])!
+    INFO    baseapp-1 48140 7001  [2021-05-16 14:03:47 435] - Script::install(): KBExtra is successfully!
+   DEBUG    baseapp-1 48140 7001  [2021-05-16 14:03:47 667] - loaded component-script:Test(3).
+   DEBUG    baseapp-1 48140 7001  [2021-05-16 14:03:47 669] - loaded entity-script:Account(1).
+   DEBUG    baseapp-1 48140 7001  [2021-05-16 14:03:47 669] - loaded entity-script:Avatar(2).
+   DEBUG    baseapp-1 48140 7001  [2021-05-16 14:03:47 674] - loaded entity-script:Spaces(8).
+   DEBUG    baseapp-1 48140 7001  [2021-05-16 14:03:47 674] - loaded entity-script:Space(9).
+   DEBUG    baseapp-1 48140 7001  [2021-05-16 14:03:47 675] - loaded entity-script:SpaceDuplicate(10).
+   DEBUG    baseapp-1 48140 7001  [2021-05-16 14:03:47 676] - loaded entity-script:SpawnPoint(11).
+    INFO    baseapp-1 48140 7001  [2021-05-16 14:03:47 676] - Baseapp::initializeEnd: started resmgr tick(60s)!
+    INFO    baseapp-1 48140 7001  [2021-05-16 14:03:47 677] - TelnetServer server is running on port 40000
+    INFO    baseapp-1 48140 7001  [2021-05-16 14:03:48 046] - ---- baseapp is running ----
+   DEBUG    baseapp-1 48140 7001  [2021-05-16 14:03:48 046] - Components::process(): Request for the process of identity...
+ WARNING    baseapp-1 48140 7001  [2021-05-16 14:03:54 253] - EntityApp::checkTickPeriod: tick took 6207% (6.21 seconds)!
+    INFO    baseapp-1 48140 7001  [2021-05-16 14:03:55 335] - Components::findComponents: find dbmgr(1)...
+    INFO    baseapp-1 48140 7001  [2021-05-16 14:03:55 353] - Components::findComponents: found dbmgr, addr:192.168.2.188:64178
+    INFO    baseapp-1 48140 7001  [2021-05-16 14:03:55 353] - Components::addComponent: reset orderLog, uid=48140!
+    INFO    baseapp-1 48140 7001  [2021-05-16 14:03:55 353] - Components::addComponent[dbmgr], uid=48140, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 48140 7001  [2021-05-16 14:03:55 353] - Components::findComponents: found dbmgr, addr:192.168.2.188:64178
+ WARNING    baseapp-1 48140 7001  [2021-05-16 14:03:56 357] - EntityApp::checkTickPeriod: tick took 1099% (1.10 seconds)!
+    INFO    baseapp-1 48140 7001  [2021-05-16 14:03:57 440] - Components::findComponents: find baseappmgr(1)...
+    INFO    baseapp-1 48140 7001  [2021-05-16 14:03:57 518] - Components::findComponents: found baseappmgr, addr:192.168.2.188:64185
+    INFO    baseapp-1 48140 7001  [2021-05-16 14:03:57 518] - Components::addComponent[baseappmgr], uid=48140, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    baseapp-1 48140 7001  [2021-05-16 14:03:57 522] - Components::findComponents: found baseappmgr, addr:192.168.2.188:64185
+ WARNING    baseapp-1 48140 7001  [2021-05-16 14:03:58 530] - EntityApp::checkTickPeriod: tick took 1182% (1.18 seconds)!
+    INFO    baseapp-1 48140 7001  [2021-05-16 14:03:59 541] - Components::findComponents: find cellappmgr(1)...
+    INFO    baseapp-1 48140 7001  [2021-05-16 14:03:59 592] - Components::findComponents: found cellappmgr, addr:192.168.2.188:64194
+    INFO    baseapp-1 48140 7001  [2021-05-16 14:03:59 592] - Components::addComponent[cellappmgr], uid=48140, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    baseapp-1 48140 7001  [2021-05-16 14:03:59 593] - Components::findComponents: found cellappmgr, addr:192.168.2.188:64194
+ WARNING    baseapp-1 48140 7001  [2021-05-16 14:04:00 595] - EntityApp::checkTickPeriod: tick took 1148% (1.15 seconds)!
+    INFO    baseapp-1 48140 7001  [2021-05-16 14:04:01 652] - Components::findComponents: register self to dbmgr...
+   DEBUG    baseapp-1 48140 7001  [2021-05-16 14:04:01 668] - SyncEntityStreamTemplateHandler::~SyncEntityStreamTemplateHandler()
+    INFO    baseapp-1 48140 7001  [2021-05-16 14:04:01 683] - Components::findComponents: register self to baseappmgr...
+    INFO    baseapp-1 48140 7001  [2021-05-16 14:04:01 730] - Components::findComponents: register self to cellappmgr...
+    INFO    baseapp-1 48140 7001  [2021-05-16 14:04:01 745] - Components::process(): Found all the components!
+    INFO    baseapp-1 48140 7001  [2021-05-16 14:04:03 893] - ServerApp::onRegisterNewApp: uid:48140, username:Riccardo, componentType:cellapp, componentID:8001, globalorderID=5, grouporderID=1, intaddr:192.168.2.188, intport:64210, extaddr:nonsupport, extport:0,  from 192.168.2.188:64178/0/0/0.
+    INFO    baseapp-1 48140 7001  [2021-05-16 14:04:03 893] - Components::addComponent[cellapp], uid=48140, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO    baseapp-1 48140 7001  [2021-05-16 14:04:06 906] - EntityApp::onDbmgrInitCompleted: entityID alloc(1-2001), startGlobalOrder=4, startGroupOrder=1, digest=46596D3750651E9F679C7775CD577E35.
+    INFO    baseapp01 48140 7001  [2021-05-16 14:04:06 906] - IDClient::onAddRange: number of ids increased from 1 to 2001.
+ WARNING    baseapp01 48140 7001  [2021-05-16 14:04:07 387] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20261, errorno=10048
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:08 709] - onInit::isReload:0
+ WARNING    baseapp01 48140 7001  [2021-05-16 14:04:08 709] - D:\TheWorld\KBEngine\kbengine.master\kbe\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 1.80 seconds
+ WARNING    baseapp01 48140 7001  [2021-05-16 14:04:08 709] - EntityApp::checkTickPeriod: tick took 1850% (1.85 seconds)!
+   DEBUG    baseapp01 48140 7001  [2021-05-16 14:04:09 036] - EntityAutoLoader::~EntityAutoLoader()
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:09 052] - onBaseAppReady: isBootstrap=True
+ WARNING    baseapp01 48140 7001  [2021-05-16 14:04:09 052] - Spaces::createCellData: do not create cellData, cannot find the cellapp script(Spaces)!
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:04:09 052] - Spaces::initAlloc: 1, Registering timer to create Space
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:04:09 053] - Spaces::initAlloc: 1, Registered timer to create Space (timer id 1)
+    INFO    baseapp01 48140 7001  [2021-05-16 14:04:09 053] - EntityApp::createEntity: new Spaces 1
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:09 130] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:09 146] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:09 239] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:09 255] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:09 332] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:09 348] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:09 441] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:09 457] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:09 536] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:09 550] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:09 629] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:09 660] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:09 676] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:09 739] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:09 754] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:09 832] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:09 848] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:09 940] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:09 955] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:10 033] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:10 049] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:10 141] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:10 157] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:10 235] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:10 251] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:10 329] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:10 360] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:10 439] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:10 454] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:10 532] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:10 547] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:10 639] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:10 654] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:10 686] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:10 733] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:10 748] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:10 842] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:10 858] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:10 935] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:10 950] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:11 028] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:11 059] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:11 136] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:11 152] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:11 230] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:11 261] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:11 339] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:11 355] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:11 431] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:11 447] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:11 539] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:11 555] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:11 632] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:11 648] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:11 680] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:11 742] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:11 757] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:11 834] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:11 850] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:11 928] - initProgress: 0.000000
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:11 959] - initProgress: 0.000000
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:04:11 960] - Space::__init__: spaceUTypeB 1, spaceResName spaces/xinshoucun
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:04:11 960] - Space::createSpawnPointDatas: size self.tmpCreateEntityDatas 0
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:04:11 965] - Space::createSpawnPointDatas: D:/TheWorld/Client/TheWorld_Assets/scripts/data/spawnpoints/xinshoucun_spawnpoints.xml
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:04:11 965] - Space::createSpawnPointDatas: size self.tmpCreateEntityDatas 2
+    INFO    baseapp01 48140 7001  [2021-05-16 14:04:11 965] - EntityApp::createEntity: new Space 2
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:04:11 965] - Spaces::onSpaceCreatedCB: space 1. entityID=2
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:11 965] - initProgress: 0.000000
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:04:11 965] - onGlobalData: space_1
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:04:11 965] - Space::onGetCell: 2
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:04:11 966] - Spaces::onSpaceGetCell: space 1. entityID=2, spaceKey=6962857747411304448
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:11 966] - initProgress: completed!
+   DEBUG    baseapp01 48140 7001  [2021-05-16 14:04:11 966] - InitProgressHandler::~InitProgressHandler()
+    INFO    baseapp01 48140 7001  [2021-05-16 14:04:12 054] - EntityApp::createEntity: new SpawnPoint 3
+    INFO    baseapp01 48140 7001  [2021-05-16 14:04:12 162] - EntityApp::createEntity: new SpawnPoint 4
+   DEBUG    baseapp01 48140 7001  [2021-05-16 14:04:14 997] - PendingLoginMgr::add: KBEngine, size=1.
+    INFO    baseapp01 48140 7001  [2021-05-16 14:04:15 070] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=7C 7A 4D B3 B9 33 37 A5 E6 8D F8 30 08 ED 6A E3 , addr:192.168.2.188:64306/0/0/0
+    INFO    baseapp01 48140 7001  [2021-05-16 14:04:15 166] - Baseapp::loginBaseapp: new user[KBEngine], channel[192.168.2.188:64306/0/0/0].
+   DEBUG    baseapp01 48140 7001  [2021-05-16 14:04:15 195] - PendingLoginMgr::remove: KBEngine, size=0.
+    INFO    baseapp01 48140 7001  [2021-05-16 14:04:15 195] - EntityApp::createEntity: new Account 5
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:15 195] - Account[5]::onClientEnabled:entities enable. entityCall:Client id:5, utype:1, component=client[0], addr: 192.168.2.188:64306., clientType(2), clientDatas=((b'TheWorld', b'TheWorld')), hasAvatar=None, accountName=KBEngine
+    INFO    baseapp01 48140 7001  [2021-05-16 14:04:15 195] - Baseapp::onQueryAccountCBFromDbmgr: user=KBEngine, uuid=6962857764591173632, entityID=5, flags=0, deadline=0.
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:04:15 310] - Account[5].reqAvatarList: size=1.
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:04:17 889] - Account[5].selectAvatarGame:1. self.activeAvatar=None
+    INFO    baseapp01 48140 7001  [2021-05-16 14:04:17 916] - EntityApp::createEntity: new Avatar 6
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:04:17 916] - +++++++++++++++++++++++name=component1, bb=1231
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:04:17 916] - +++++++++++++++++++++++cellData={'cc': 1002, 'own': 1001, 'state': 456}
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:04:17 916] - +++++++++++++++++++++++name=component2, bb=12
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:04:17 916] - +++++++++++++++++++++++cellData={'cc': 1002, 'own': 1001, 'state': 100}
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:17 916] - Test::onAttached(): owner=6
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:17 916] - Test::onAttached(): owner=6
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:17 916] - Test[6]::onClientEnabled:entities enable.
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:17 916] - Test[6]::onClientEnabled:entities enable.
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:17 916] - Avatar[6-6955128163574153216] entities enable. spaceUTypeB=1, entityCall:Client id:6, utype:2, component=client[0], addr: 192.168.2.188:64306.
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:04:17 916] - Spaces::loginToSpace: avatarEntity=6
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:17 917] - Avatar[6].onClientGetCell:Client id:6, utype:2, component=client[0], addr: 192.168.2.188:64306.
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:04:17 917] - Avatar::onGetCell: Cell id:6, utype:2, component=cellapp[8001], addr: 192.168.2.188:64210.
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:04:17 923] - +++++++++++++++++++++++say 0
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:04:17 924] - +++++++++++++++++++++++say 0
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:04:17 925] - +++++++++++++++++++++++say 0
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:04:17 925] - +++++++++++++++++++++++say 0
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:04:17 929] - +++++++++++++++++++++++say 0
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:04:27 855] - component1::onTimer: 6, tid:1, arg:123
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:04:27 855] - component2::onTimer: 6, tid:1, arg:123
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:04:27 855] - component1::onTimer: 6, tid:2, arg:123
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:04:27 855] - component2::onTimer: 6, tid:2, arg:123
+   DEBUG    baseapp01 48140 7001  [2021-05-16 14:04:29 329] - Avatar::onClientDeath: 6.
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:04:29 329] - Avatar[6].onClientDeath:
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:04:29 329] - Test[6].onClientDeath:
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:04:29 329] - Test[6].onClientDeath:
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:04:39 257] - Avatar::onDestroyTimer: 6
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:04:39 257] - component1::onTimer: 6, tid:1, arg:8
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:04:39 257] - component2::onTimer: 6, tid:1, arg:8
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:04:39 258] - Avatar::onLoseCell: 6
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:04:39 258] - Account::onDestroy: 5.
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:39 258] - Test::onDetached(): owner=6
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:04:39 258] - Test::onDetached(): owner=6
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:04:39 258] - Avatar::onDestroy: 6.
+   DEBUG    baseapp01 48140 7001  [2021-05-16 14:04:39 258] - Account::~Account(): 5
+   DEBUG    baseapp01 48140 7001  [2021-05-16 14:04:39 258] - Avatar::~Avatar(): 6
+   DEBUG    baseapp01 48140 7001  [2021-05-16 14:06:14 832] - PendingLoginMgr::add: KBEngineG, size=1.
+    INFO    baseapp01 48140 7001  [2021-05-16 14:06:14 922] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=38 2B 39 93 E4 9D BD 3B 35 B0 3B 1A 71 86 67 92 , addr:192.168.2.188:64383/0/0/0
+    INFO    baseapp01 48140 7001  [2021-05-16 14:06:15 021] - Baseapp::loginBaseapp: new user[KBEngineG], channel[192.168.2.188:64383/0/0/0].
+   DEBUG    baseapp01 48140 7001  [2021-05-16 14:06:15 037] - PendingLoginMgr::remove: KBEngineG, size=0.
+    INFO    baseapp01 48140 7001  [2021-05-16 14:06:15 037] - EntityApp::createEntity: new Account 7
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:06:15 038] - Account[7]::onClientEnabled:entities enable. entityCall:Client id:7, utype:1, component=client[0], addr: 192.168.2.188:64383., clientType(2), clientDatas=((b'TheWorld', b'TheWorld')), hasAvatar=None, accountName=KBEngineG
+    INFO    baseapp01 48140 7001  [2021-05-16 14:06:15 038] - Baseapp::onQueryAccountCBFromDbmgr: user=KBEngineG, uuid=6962858279987249152, entityID=7, flags=0, deadline=0.
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:06:15 149] - Account[7].reqAvatarList: size=0.
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:06:29 585] - +++++++++++++++++++++++name=component1, bb=1231
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:06:29 585] - +++++++++++++++++++++++cellData={'cc': 1002, 'own': 1001, 'state': 456}
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:06:29 585] - +++++++++++++++++++++++name=component2, bb=12
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:06:29 585] - +++++++++++++++++++++++cellData={'cc': 1002, 'own': 1001, 'state': 100}
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:06:29 585] - Test::onAttached(): owner=8
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:06:29 585] - Test::onAttached(): owner=8
+    INFO    baseapp01 48140 7001  [2021-05-16 14:06:29 585] - EntityApp::createEntity: new Avatar 8
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:06:29 586] - Account[7].reqCreateAvatar:Prova. spaceUType=1, spawnPos=(771.5861, 211.0021, 776.5501).
+
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:06:29 608] - Account::_onAvatarSaved:(7) create avatar state: 1, Prova, 2
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:06:29 608] - Test::onDetached(): owner=8
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:06:29 608] - Test::onDetached(): owner=8
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:06:29 608] - Avatar::onDestroy: 8.
+   DEBUG    baseapp01 48140 7001  [2021-05-16 14:06:29 608] - Avatar::~Avatar(): 8
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:06:33 701] - Account[7].selectAvatarGame:2. self.activeAvatar=None
+    INFO    baseapp01 48140 7001  [2021-05-16 14:06:33 714] - EntityApp::createEntity: new Avatar 9
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:06:33 714] - +++++++++++++++++++++++name=component1, bb=1231
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:06:33 714] - +++++++++++++++++++++++cellData={'cc': 1002, 'own': 1001, 'state': 456}
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:06:33 714] - +++++++++++++++++++++++name=component2, bb=12
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:06:33 714] - +++++++++++++++++++++++cellData={'cc': 1002, 'own': 1001, 'state': 100}
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:06:33 715] - Test::onAttached(): owner=9
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:06:33 715] - Test::onAttached(): owner=9
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:06:33 715] - Test[9]::onClientEnabled:entities enable.
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:06:33 715] - Test[9]::onClientEnabled:entities enable.
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:06:33 715] - Avatar[9-Prova] entities enable. spaceUTypeB=1, entityCall:Client id:9, utype:2, component=client[0], addr: 192.168.2.188:64383.
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:06:33 715] - Spaces::loginToSpace: avatarEntity=9
+  S_INFO    baseapp01 48140 7001  [2021-05-16 14:06:33 715] - Avatar[9].onClientGetCell:Client id:9, utype:2, component=client[0], addr: 192.168.2.188:64383.
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:06:33 715] - Avatar::onGetCell: Cell id:9, utype:2, component=cellapp[8001], addr: 192.168.2.188:64210.
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:06:33 718] - +++++++++++++++++++++++say 0
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:06:33 718] - +++++++++++++++++++++++say 0
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:06:33 719] - +++++++++++++++++++++++say 0
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:06:33 719] - +++++++++++++++++++++++say 0
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:06:33 721] - +++++++++++++++++++++++say 0
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:06:43 661] - component1::onTimer: 9, tid:1, arg:123
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:06:43 661] - component2::onTimer: 9, tid:1, arg:123
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:06:43 661] - component1::onTimer: 9, tid:2, arg:123
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:06:43 662] - component2::onTimer: 9, tid:2, arg:123
+   DEBUG    baseapp01 48140 7001  [2021-05-16 14:06:57 406] - Avatar::onClientDeath: 9.
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:06:57 406] - Avatar[9].onClientDeath:
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:06:57 407] - Test[9].onClientDeath:
+   S_DBG    baseapp01 48140 7001  [2021-05-16 14:06:57 407] - Test[9].onClientDeath:

@@ -1,0 +1,64 @@
+    INFO   loginapp-1 48140 9000  [2021-05-16 14:03:47 600] - -----------------------------------------------------------------------------------------
+
+
+    INFO   loginapp-1 48140 9000  [2021-05-16 14:03:47 601] - Resmgr::initialize: KBE_ROOT=D:/TheWorld/KBEngine/kbengine/
+    INFO   loginapp-1 48140 9000  [2021-05-16 14:03:47 601] - Resmgr::initialize: KBE_RES_PATH=D:/TheWorld/KBEngine/kbengine/kbe/res/;D:/TheWorld/Client/TheWorld_Assets/;D:/TheWorld/Client/TheWorld_Assets/scripts/;D:/TheWorld/Client/TheWorld_Assets/res/
+    INFO   loginapp-1 48140 9000  [2021-05-16 14:03:47 601] - Resmgr::initialize: KBE_BIN_PATH=D:/TheWorld/KBEngine/kbengine/kbe/bin/server/
+    INFO   loginapp-1 48140 9000  [2021-05-16 14:03:47 608] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.2.188 ( 192.168.2.188:20013 )
+    INFO   loginapp-1 48140 9000  [2021-05-16 14:03:47 609] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.2.188:20013, SOMAXCONN=511.
+    INFO   loginapp-1 48140 9000  [2021-05-16 14:03:47 610] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.2.188 ( 192.168.2.188:64216 )
+    INFO   loginapp-1 48140 9000  [2021-05-16 14:03:47 610] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.2.188:64216, SOMAXCONN=511.
+    INFO   loginapp-1 48140 9000  [2021-05-16 14:03:47 610] - server-configs:
+    INFO   loginapp-1 48140 9000  [2021-05-16 14:03:47 610] - 	internalTcpAddr : 192.168.2.188:64216
+    INFO   loginapp-1 48140 9000  [2021-05-16 14:03:47 610] - 	externalTcpAddr : 192.168.2.188:20013
+    INFO   loginapp-1 48140 9000  [2021-05-16 14:03:47 611] - 	componentID : 9000
+    INFO   loginapp-1 48140 9000  [2021-05-16 14:03:47 893] - Components::findLogger: found logger, addr:192.168.2.188:64155
+    INFO   loginapp-1 48140 9000  [2021-05-16 14:03:47 893] - Components::addComponent: reset orderLog, uid=48140!
+    INFO   loginapp-1 48140 9000  [2021-05-16 14:03:47 893] - Components::addComponent[logger], uid=48140, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 48140 9000  [2021-05-16 14:03:47 898] - ---- loginapp Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: CE9FF53F4E85387EE4455C7191269324. Config: Debug X64. Built: 12:08:51 May 16 2021. AppID: 9000. UID: 48140. PID: 292 ----
+    INFO   loginapp-1 48140 9000  [2021-05-16 14:03:47 899] - Server Riccardo: 11th Gen Intel(R) Core(TM) i5-11400F @ 2.60GHz with 16645500kB RAM
+    INFO   loginapp-1 48140 9000  [2021-05-16 14:03:47 899] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO   loginapp-1 48140 9000  [2021-05-16 14:03:47 899] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO   loginapp-1 48140 9000  [2021-05-16 14:03:48 066] - Script::install(): is successfully, Python=(3.7.3 (heads/master-dirty:5283b9b85, May 16 2021, 12:07:54) [MSC v.1928 64 bit (AMD64)])!
+    INFO   loginapp-1 48140 9000  [2021-05-16 14:03:48 066] - Script::install(): KBExtra is successfully!
+  S_INFO   loginapp-1 48140 9000  [2021-05-16 14:03:48 079] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO   loginapp-1 48140 9000  [2021-05-16 14:03:48 080] - TelnetServer server is running on port 31000
+    INFO   loginapp-1 48140 9000  [2021-05-16 14:03:48 425] - ---- loginapp is running ----
+   DEBUG   loginapp-1 48140 9000  [2021-05-16 14:03:48 426] - Components::process(): Request for the process of identity...
+    INFO   loginapp-1 48140 9000  [2021-05-16 14:03:55 645] - Components::findComponents: find dbmgr(1)...
+    INFO   loginapp-1 48140 9000  [2021-05-16 14:03:55 677] - Components::findComponents: found dbmgr, addr:192.168.2.188:64178
+    INFO   loginapp-1 48140 9000  [2021-05-16 14:03:55 677] - Components::addComponent: reset orderLog, uid=48140!
+    INFO   loginapp-1 48140 9000  [2021-05-16 14:03:55 677] - Components::addComponent[dbmgr], uid=48140, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 48140 9000  [2021-05-16 14:03:55 677] - Components::findComponents: found dbmgr, addr:192.168.2.188:64178
+    INFO   loginapp-1 48140 9000  [2021-05-16 14:03:57 688] - Components::findComponents: find baseappmgr(1)...
+    INFO   loginapp-1 48140 9000  [2021-05-16 14:03:57 737] - Components::findComponents: found baseappmgr, addr:192.168.2.188:64185
+    INFO   loginapp-1 48140 9000  [2021-05-16 14:03:57 737] - Components::addComponent[baseappmgr], uid=48140, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO   loginapp-1 48140 9000  [2021-05-16 14:03:57 738] - Components::findComponents: found baseappmgr, addr:192.168.2.188:64185
+    INFO   loginapp-1 48140 9000  [2021-05-16 14:03:59 792] - Components::findComponents: register self to dbmgr...
+    INFO   loginapp-1 48140 9000  [2021-05-16 14:03:59 808] - Components::findComponents: register self to baseappmgr...
+    INFO   loginapp-1 48140 9000  [2021-05-16 14:03:59 809] - Components::process(): Found all the components!
+    INFO   loginapp-1 48140 9000  [2021-05-16 14:04:04 008] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=C7 3E 9E 25 9E 02 73 9C 48 FC 15 5E FB E8 DF 13 , addr:127.0.0.1:64290/0/0/0
+    INFO   loginapp-1 48140 9000  [2021-05-16 14:04:04 066] - Loginapp::login: loginName(KBEngine), digest not match. curr(46596D3750651E9F679C7775CD577E35) != dbmgr()
+    INFO   loginapp-1 48140 9000  [2021-05-16 14:04:04 066] - Loginapp::loginFailed: loginName=KBEngine login failed. failedcode=SERVER_ERR_ENTITYDEFS_NOT_MATCH, datas=.
+    INFO   loginapp-1 48140 9000  [2021-05-16 14:04:06 906] - Loginapp::onDbmgrInitCompleted:startGlobalOrder=3, startGroupOrder=1, digest=46596D3750651E9F679C7775CD577E35.
+    INFO   loginapp01 48140 9000  [2021-05-16 14:04:08 209] - HTTPCBHandler::bind: 192.168.2.188:21103
+ WARNING   loginapp01 48140 9000  [2021-05-16 14:04:08 209] - D:\TheWorld\KBEngine\kbengine.master\kbe\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 1.30 seconds
+    INFO   loginapp01 48140 9000  [2021-05-16 14:04:08 210] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=FC 3D EA 04 A5 D6 07 56 1C BC CB 34 6C 6E 50 9D , addr:127.0.0.1:64301/0/0/0
+    INFO   loginapp01 48140 9000  [2021-05-16 14:04:08 265] - Loginapp::loginFailed: loginName=KBEngine login failed. failedcode=SERVER_ERR_SRV_STARTING, datas=initProgress: 0.
+    INFO   loginapp01 48140 9000  [2021-05-16 14:04:10 785] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=87 9C C8 05 59 4C 7D 59 61 D6 FB 93 66 E3 A9 91 , addr:127.0.0.1:64302/0/0/0
+    INFO   loginapp01 48140 9000  [2021-05-16 14:04:10 866] - Loginapp::loginFailed: loginName=KBEngine login failed. failedcode=SERVER_ERR_SRV_STARTING, datas=initProgress: 0.
+    INFO   loginapp01 48140 9000  [2021-05-16 14:04:11 966] - Loginapp::onBaseappInitProgress: progress=1.
+    INFO   loginapp01 48140 9000  [2021-05-16 14:04:14 900] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=7C 30 51 D3 AB 10 2A 74 C2 B3 EC 88 5A 61 C0 9D , addr:127.0.0.1:64305/0/0/0
+  S_INFO   loginapp01 48140 9000  [2021-05-16 14:04:14 967] - onRequestLogin() loginName=KBEngine, clientType=2
+   DEBUG   loginapp01 48140 9000  [2021-05-16 14:04:14 967] - PendingLoginMgr::add: KBEngine, size=1.
+    INFO   loginapp01 48140 9000  [2021-05-16 14:04:14 967] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=KBEngine, datas=TheWorld.
+  S_INFO   loginapp01 48140 9000  [2021-05-16 14:04:14 995] - onLoginCallbackFromDB() loginName=KBEngine, accountName=KBEngine, errorno=0
+   DEBUG   loginapp01 48140 9000  [2021-05-16 14:04:14 997] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=KBEngine, addr=192.168.2.188:20015.
+   DEBUG   loginapp01 48140 9000  [2021-05-16 14:04:14 997] - PendingLoginMgr::remove: KBEngine, size=0.
+    INFO   loginapp01 48140 9000  [2021-05-16 14:06:14 802] - ServerApp::onHello: verInfo=2.5.10, scriptVerInfo=0.1.0, encryptedKey=B2 13 EB 2F 8E 7E 0E 4D ED 8E F5 FE E5 5F 1D 4A , addr:127.0.0.1:64382/0/0/0
+  S_INFO   loginapp01 48140 9000  [2021-05-16 14:06:14 820] - onRequestLogin() loginName=KBEngineG, clientType=2
+   DEBUG   loginapp01 48140 9000  [2021-05-16 14:06:14 820] - PendingLoginMgr::add: KBEngineG, size=1.
+    INFO   loginapp01 48140 9000  [2021-05-16 14:06:14 820] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=KBEngineG, datas=TheWorld.
+  S_INFO   loginapp01 48140 9000  [2021-05-16 14:06:14 832] - onLoginCallbackFromDB() loginName=KBEngineG, accountName=KBEngineG, errorno=0
+   DEBUG   loginapp01 48140 9000  [2021-05-16 14:06:14 833] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=KBEngineG, addr=192.168.2.188:20015.
+   DEBUG   loginapp01 48140 9000  [2021-05-16 14:06:14 833] - PendingLoginMgr::remove: KBEngineG, size=0.

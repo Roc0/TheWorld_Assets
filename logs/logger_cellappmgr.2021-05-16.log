@@ -1,0 +1,42 @@
+    INFO cellappmgr-1 48140 6000  [2021-05-16 14:03:46 576] - -----------------------------------------------------------------------------------------
+
+
+    INFO cellappmgr-1 48140 6000  [2021-05-16 14:03:46 578] - Resmgr::initialize: KBE_ROOT=D:/TheWorld/KBEngine/kbengine/
+    INFO cellappmgr-1 48140 6000  [2021-05-16 14:03:46 578] - Resmgr::initialize: KBE_RES_PATH=D:/TheWorld/KBEngine/kbengine/kbe/res/;D:/TheWorld/Client/TheWorld_Assets/;D:/TheWorld/Client/TheWorld_Assets/scripts/;D:/TheWorld/Client/TheWorld_Assets/res/
+    INFO cellappmgr-1 48140 6000  [2021-05-16 14:03:46 578] - Resmgr::initialize: KBE_BIN_PATH=D:/TheWorld/KBEngine/kbengine/kbe/bin/server/
+    INFO cellappmgr-1 48140 6000  [2021-05-16 14:03:46 585] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.2.188 ( 192.168.2.188:64194 )
+    INFO cellappmgr-1 48140 6000  [2021-05-16 14:03:46 586] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.2.188:64194, SOMAXCONN=511.
+    INFO cellappmgr-1 48140 6000  [2021-05-16 14:03:46 586] - server-configs:
+    INFO cellappmgr-1 48140 6000  [2021-05-16 14:03:46 586] - 	internalTcpAddr : 192.168.2.188:64194
+    INFO cellappmgr-1 48140 6000  [2021-05-16 14:03:46 586] - 	componentID : 6000
+    INFO cellappmgr-1 48140 6000  [2021-05-16 14:03:46 590] - Components::findLogger: found logger, addr:192.168.2.188:64155
+    INFO cellappmgr-1 48140 6000  [2021-05-16 14:03:46 591] - Components::addComponent: reset orderLog, uid=48140!
+    INFO cellappmgr-1 48140 6000  [2021-05-16 14:03:46 591] - Components::addComponent[logger], uid=48140, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 48140 6000  [2021-05-16 14:03:46 598] - ---- cellappmgr Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: AFC10615FCF531D416E7A56B687CCF1A. Config: Debug X64. Built: 12:08:16 May 16 2021. AppID: 6000. UID: 48140. PID: 11636 ----
+    INFO cellappmgr-1 48140 6000  [2021-05-16 14:03:46 598] - Server Riccardo: 11th Gen Intel(R) Core(TM) i5-11400F @ 2.60GHz with 16645500kB RAM
+    INFO cellappmgr-1 48140 6000  [2021-05-16 14:03:46 598] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO cellappmgr-1 48140 6000  [2021-05-16 14:03:46 598] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO cellappmgr-1 48140 6000  [2021-05-16 14:03:47 003] - ---- cellappmgr is running ----
+   DEBUG cellappmgr-1 48140 6000  [2021-05-16 14:03:47 003] - Components::process(): Request for the process of identity...
+    INFO cellappmgr-1 48140 6000  [2021-05-16 14:03:54 236] - Components::findComponents: find dbmgr(1)...
+    INFO cellappmgr-1 48140 6000  [2021-05-16 14:03:54 268] - Components::findComponents: found dbmgr, addr:192.168.2.188:64178
+    INFO cellappmgr-1 48140 6000  [2021-05-16 14:03:54 268] - Components::addComponent: reset orderLog, uid=48140!
+    INFO cellappmgr-1 48140 6000  [2021-05-16 14:03:54 268] - Components::addComponent[dbmgr], uid=48140, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 48140 6000  [2021-05-16 14:03:54 268] - Components::findComponents: found dbmgr, addr:192.168.2.188:64178
+    INFO cellappmgr-1 48140 6000  [2021-05-16 14:03:56 279] - Components::findComponents: find baseappmgr(1)...
+    INFO cellappmgr-1 48140 6000  [2021-05-16 14:03:56 328] - Components::findComponents: found baseappmgr, addr:192.168.2.188:64185
+    INFO cellappmgr-1 48140 6000  [2021-05-16 14:03:56 328] - Components::addComponent[baseappmgr], uid=48140, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 48140 6000  [2021-05-16 14:03:56 328] - Components::findComponents: found baseappmgr, addr:192.168.2.188:64185
+    INFO cellappmgr-1 48140 6000  [2021-05-16 14:03:58 076] - ServerApp::onRegisterNewApp: uid:48140, username:Riccardo, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.188, intport:64185, extaddr:nonsupport, extport:0,  from 192.168.2.188:64258/0/0/0.
+    INFO cellappmgr-1 48140 6000  [2021-05-16 14:03:58 357] - Components::findComponents: register self to dbmgr...
+    INFO cellappmgr-1 48140 6000  [2021-05-16 14:03:58 388] - Components::findComponents: register self to baseappmgr...
+    INFO cellappmgr-1 48140 6000  [2021-05-16 14:03:58 420] - Components::process(): Found all the components!
+    INFO cellappmgr-1 48140 6000  [2021-05-16 14:04:01 731] - ServerApp::onRegisterNewApp: uid:48140, username:Riccardo, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.188, intport:64202, extaddr:192.168.2.188, extport:20015,  from 192.168.2.188:64286/0/0/0.
+    INFO cellappmgr-1 48140 6000  [2021-05-16 14:04:01 731] - Components::addComponent[baseapp], uid=48140, componentID=7001, globalorderid=3, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 48140 6000  [2021-05-16 14:04:03 908] - ServerApp::onRegisterNewApp: uid:48140, username:Riccardo, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.188, intport:64210, extaddr:nonsupport, extport:0,  from 192.168.2.188:64293/0/0/0.
+    INFO cellappmgr-1 48140 6000  [2021-05-16 14:04:03 908] - Components::addComponent[cellapp], uid=48140, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 48140 6000  [2021-05-16 14:04:03 971] - Cellappmgr::getCellapp: added new cellapp(8001).
+    INFO cellappmgr-1 48140 6000  [2021-05-16 14:04:09 271] - Cellappmgr::onCellappInitProgress: cid=8001, progress=1.
+   DEBUG cellappmgr-1 48140 6000  [2021-05-16 14:04:09 271] - Cellappmgr::addCellappComponentID: cellapp component id 8001, group order id 1
+   DEBUG cellappmgr-1 48140 6000  [2021-05-16 14:04:11 960] - Cellappmgr::reqCreateCellEntityInNewSpace: entityType=Space, entityID=2, componentID=7001, cellapp(cid=8001, load=0.365155, numEntities=0).
+    INFO cellappmgr-1 48140 6000  [2021-05-16 14:04:58 075] - ServerApp::onChannelTimeOut: Channel 192.168.2.188:64258/0/0/0 timeout!
