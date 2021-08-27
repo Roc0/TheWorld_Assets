@@ -1,0 +1,41 @@
+  INFO root [0x000035d0] [2021-08-08 12:36:01,509] - 
+  INFO root [0x000035d0] [2021-08-08 12:36:01,509] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x000035d0] [2021-08-08 12:36:01,517] - Resmgr::initialize: KBE_ROOT=D:/TheWorld/KBEngine/kbengine/
+  INFO root [0x000035d0] [2021-08-08 12:36:01,517] - Resmgr::initialize: KBE_RES_PATH=D:/TheWorld/KBEngine/kbengine/kbe/res/;D:/TheWorld/Client/TheWorld_Assets/;D:/TheWorld/Client/TheWorld_Assets/scripts/;D:/TheWorld/Client/TheWorld_Assets/res/
+  INFO root [0x000035d0] [2021-08-08 12:36:01,519] - Resmgr::initialize: KBE_BIN_PATH=D:/TheWorld/KBEngine/kbengine/kbe/bin/server/
+  INFO root [0x000035d0] [2021-08-08 12:36:01,529] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:20015 )
+  INFO root [0x000035d0] [2021-08-08 12:36:01,529] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.56.1:20015, SOMAXCONN=511.
+  INFO root [0x000035d0] [2021-08-08 12:36:01,539] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:20005 )
+  INFO root [0x000035d0] [2021-08-08 12:36:01,539] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.56.1:20005, SOMAXCONN=511.
+  INFO root [0x000035d0] [2021-08-08 12:36:01,539] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:51438 )
+  INFO root [0x000035d0] [2021-08-08 12:36:01,547] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:51438, SOMAXCONN=511.
+  INFO root [0x000035d0] [2021-08-08 12:36:01,547] - server-configs:
+  INFO root [0x000035d0] [2021-08-08 12:36:01,547] - 	gameUpdateHertz : 10
+  INFO root [0x000035d0] [2021-08-08 12:36:01,547] - 	entryScriptFile : kbemain
+  INFO root [0x000035d0] [2021-08-08 12:36:01,547] - 	internalTcpAddr : 192.168.56.1:51438
+  INFO root [0x000035d0] [2021-08-08 12:36:01,547] - 	externalTcpAddr : 192.168.56.1:20015
+  INFO root [0x000035d0] [2021-08-08 12:36:01,547] - 	externalUdpAddr : 192.168.56.1:20005
+  INFO root [0x000035d0] [2021-08-08 12:36:01,547] - 	componentID : 7001
+  INFO root [0x000035d0] [2021-08-08 12:36:02,303] - Components::findLogger: found logger, addr:192.168.56.1:51427
+  INFO root [0x000035d0] [2021-08-08 12:36:02,303] - Components::addComponent: reset orderLog, uid=48140!
+  INFO root [0x000035d0] [2021-08-08 12:36:02,303] - Components::addComponent[logger], uid=48140, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x000035d0] [2021-08-08 12:36:02,414] - ---- baseapp Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: DCFA95A4364DC44A8B8A14D3936CBE92. Config: Debug X64. Built: 12:09:11 May 16 2021. AppID: 7001. UID: 48140. PID: 14752 ----
+  INFO root [0x000035d0] [2021-08-08 12:36:02,444] - Server utente:         Intel(R) Core(TM) i5-2300 CPU @ 2.80GHz with 23045024kB RAM
+  INFO root [0x000035d0] [2021-08-08 12:36:02,544] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x000035d0] [2021-08-08 12:36:02,544] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x000035d0] [2021-08-08 12:36:02,996] - Script::install(): is successfully, Python=(3.7.3 (heads/master-dirty:5283b9b85, May 16 2021, 12:07:54) [MSC v.1928 64 bit (AMD64)])!
+  INFO root [0x000035d0] [2021-08-08 12:36:02,996] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x000035d0] [2021-08-08 12:36:03,750] - loaded component-script:Test(3).
+ DEBUG root [0x000035d0] [2021-08-08 12:36:03,758] - loaded entity-script:Account(1).
+ DEBUG root [0x000035d0] [2021-08-08 12:36:03,758] - loaded entity-script:Avatar(2).
+ DEBUG root [0x000035d0] [2021-08-08 12:36:03,768] - loaded entity-script:Spaces(8).
+ DEBUG root [0x000035d0] [2021-08-08 12:36:03,768] - loaded entity-script:Space(9).
+ DEBUG root [0x000035d0] [2021-08-08 12:36:03,770] - loaded entity-script:SpaceDuplicate(10).
+ DEBUG root [0x000035d0] [2021-08-08 12:36:03,770] - loaded entity-script:SpawnPoint(11).
+  INFO root [0x000035d0] [2021-08-08 12:36:03,770] - Baseapp::initializeEnd: started resmgr tick(60s)!
+  INFO root [0x000035d0] [2021-08-08 12:36:03,778] - TelnetServer server is running on port 40000
+  INFO root [0x000035d0] [2021-08-08 12:36:04,886] - ---- baseapp is running ----
+ DEBUG root [0x000035d0] [2021-08-08 12:36:04,896] - Components::process(): Request for the process of identity...
+  WARN root [0x000035d0] [2021-08-08 12:36:11,236] - Forwarding logs to logger[192.168.56.1:51427/0/0/0]...

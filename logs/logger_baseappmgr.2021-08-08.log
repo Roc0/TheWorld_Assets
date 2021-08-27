@@ -1,0 +1,26 @@
+    INFO baseappmgr-1 48140 5000  [2021-08-08 12:35:58 324] - -----------------------------------------------------------------------------------------
+
+
+    INFO baseappmgr-1 48140 5000  [2021-08-08 12:35:58 326] - Resmgr::initialize: KBE_ROOT=D:/TheWorld/KBEngine/kbengine/
+    INFO baseappmgr-1 48140 5000  [2021-08-08 12:35:58 327] - Resmgr::initialize: KBE_RES_PATH=D:/TheWorld/KBEngine/kbengine/kbe/res/;D:/TheWorld/Client/TheWorld_Assets/;D:/TheWorld/Client/TheWorld_Assets/scripts/;D:/TheWorld/Client/TheWorld_Assets/res/
+    INFO baseappmgr-1 48140 5000  [2021-08-08 12:35:58 328] - Resmgr::initialize: KBE_BIN_PATH=D:/TheWorld/KBEngine/kbengine/kbe/bin/server/
+    INFO baseappmgr-1 48140 5000  [2021-08-08 12:35:58 351] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:51430 )
+    INFO baseappmgr-1 48140 5000  [2021-08-08 12:35:58 351] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:51430, SOMAXCONN=511.
+    INFO baseappmgr-1 48140 5000  [2021-08-08 12:35:58 351] - server-configs:
+    INFO baseappmgr-1 48140 5000  [2021-08-08 12:35:58 351] - 	internalTcpAddr : 192.168.56.1:51430
+    INFO baseappmgr-1 48140 5000  [2021-08-08 12:35:58 352] - 	componentID : 5000
+    INFO baseappmgr-1 48140 5000  [2021-08-08 12:35:58 480] - Components::findLogger: found logger, addr:192.168.56.1:51427
+    INFO baseappmgr-1 48140 5000  [2021-08-08 12:35:58 481] - Components::addComponent: reset orderLog, uid=48140!
+    INFO baseappmgr-1 48140 5000  [2021-08-08 12:35:58 481] - Components::addComponent[logger], uid=48140, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 48140 5000  [2021-08-08 12:35:58 592] - ---- baseappmgr Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: F070EF05A96B768F8BA788CE4BCBB097. Config: Debug X64. Built: 12:08:49 May 16 2021. AppID: 5000. UID: 48140. PID: 15076 ----
+    INFO baseappmgr-1 48140 5000  [2021-08-08 12:35:58 657] - Server utente:         Intel(R) Core(TM) i5-2300 CPU @ 2.80GHz with 23045024kB RAM
+    INFO baseappmgr-1 48140 5000  [2021-08-08 12:35:58 681] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO baseappmgr-1 48140 5000  [2021-08-08 12:35:58 682] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO baseappmgr-1 48140 5000  [2021-08-08 12:35:59 483] - ---- baseappmgr is running ----
+   DEBUG baseappmgr-1 48140 5000  [2021-08-08 12:35:59 494] - Components::process(): Request for the process of identity...
+    INFO baseappmgr-1 48140 5000  [2021-08-08 12:36:06 745] - Components::findComponents: find dbmgr(1)...
+    INFO baseappmgr-1 48140 5000  [2021-08-08 12:36:08 896] - Components::findComponents: find dbmgr(2)...
+    INFO baseappmgr-1 48140 5000  [2021-08-08 12:36:11 016] - Components::findComponents: find dbmgr(3)...
+    INFO baseappmgr-1 48140 5000  [2021-08-08 12:36:13 118] - Components::findComponents: find dbmgr(4)...
+    INFO baseappmgr-1 48140 5000  [2021-08-08 12:36:15 249] - Components::findComponents: find dbmgr(5)...
+    INFO baseappmgr-1 48140 5000  [2021-08-08 12:36:17 379] - Components::findComponents: find dbmgr(6)...

@@ -1,0 +1,25 @@
+    INFO cellappmgr-1 48140 6000  [2021-08-08 12:35:59 500] - -----------------------------------------------------------------------------------------
+
+
+    INFO cellappmgr-1 48140 6000  [2021-08-08 12:35:59 509] - Resmgr::initialize: KBE_ROOT=D:/TheWorld/KBEngine/kbengine/
+    INFO cellappmgr-1 48140 6000  [2021-08-08 12:35:59 510] - Resmgr::initialize: KBE_RES_PATH=D:/TheWorld/KBEngine/kbengine/kbe/res/;D:/TheWorld/Client/TheWorld_Assets/;D:/TheWorld/Client/TheWorld_Assets/scripts/;D:/TheWorld/Client/TheWorld_Assets/res/
+    INFO cellappmgr-1 48140 6000  [2021-08-08 12:35:59 510] - Resmgr::initialize: KBE_BIN_PATH=D:/TheWorld/KBEngine/kbengine/kbe/bin/server/
+    INFO cellappmgr-1 48140 6000  [2021-08-08 12:35:59 547] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:51432 )
+    INFO cellappmgr-1 48140 6000  [2021-08-08 12:35:59 548] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:51432, SOMAXCONN=511.
+    INFO cellappmgr-1 48140 6000  [2021-08-08 12:35:59 548] - server-configs:
+    INFO cellappmgr-1 48140 6000  [2021-08-08 12:35:59 548] - 	internalTcpAddr : 192.168.56.1:51432
+    INFO cellappmgr-1 48140 6000  [2021-08-08 12:35:59 549] - 	componentID : 6000
+    INFO cellappmgr-1 48140 6000  [2021-08-08 12:35:59 598] - Components::findLogger: found logger, addr:192.168.56.1:51427
+    INFO cellappmgr-1 48140 6000  [2021-08-08 12:35:59 599] - Components::addComponent: reset orderLog, uid=48140!
+    INFO cellappmgr-1 48140 6000  [2021-08-08 12:35:59 599] - Components::addComponent[logger], uid=48140, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 48140 6000  [2021-08-08 12:35:59 636] - ---- cellappmgr Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: AFC10615FCF531D416E7A56B687CCF1A. Config: Debug X64. Built: 12:08:16 May 16 2021. AppID: 6000. UID: 48140. PID: 11916 ----
+    INFO cellappmgr-1 48140 6000  [2021-08-08 12:35:59 641] - Server utente:         Intel(R) Core(TM) i5-2300 CPU @ 2.80GHz with 23045024kB RAM
+    INFO cellappmgr-1 48140 6000  [2021-08-08 12:35:59 651] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO cellappmgr-1 48140 6000  [2021-08-08 12:35:59 653] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO cellappmgr-1 48140 6000  [2021-08-08 12:36:00 478] - ---- cellappmgr is running ----
+   DEBUG cellappmgr-1 48140 6000  [2021-08-08 12:36:00 501] - Components::process(): Request for the process of identity...
+    INFO cellappmgr-1 48140 6000  [2021-08-08 12:36:07 831] - Components::findComponents: find dbmgr(1)...
+    INFO cellappmgr-1 48140 6000  [2021-08-08 12:36:09 921] - Components::findComponents: find dbmgr(2)...
+    INFO cellappmgr-1 48140 6000  [2021-08-08 12:36:12 012] - Components::findComponents: find dbmgr(3)...
+    INFO cellappmgr-1 48140 6000  [2021-08-08 12:36:14 063] - Components::findComponents: find dbmgr(4)...
+    INFO cellappmgr-1 48140 6000  [2021-08-08 12:36:16 095] - Components::findComponents: find dbmgr(5)...

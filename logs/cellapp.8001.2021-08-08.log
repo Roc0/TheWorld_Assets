@@ -1,0 +1,38 @@
+  INFO root [0x00002ca8] [2021-08-08 12:36:03,418] - 
+  INFO root [0x00002ca8] [2021-08-08 12:36:03,418] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00002ca8] [2021-08-08 12:36:03,429] - Resmgr::initialize: KBE_ROOT=D:/TheWorld/KBEngine/kbengine/
+  INFO root [0x00002ca8] [2021-08-08 12:36:03,429] - Resmgr::initialize: KBE_RES_PATH=D:/TheWorld/KBEngine/kbengine/kbe/res/;D:/TheWorld/Client/TheWorld_Assets/;D:/TheWorld/Client/TheWorld_Assets/scripts/;D:/TheWorld/Client/TheWorld_Assets/res/
+  INFO root [0x00002ca8] [2021-08-08 12:36:03,429] - Resmgr::initialize: KBE_BIN_PATH=D:/TheWorld/KBEngine/kbengine/kbe/bin/server/
+  INFO root [0x00002ca8] [2021-08-08 12:36:03,467] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:51443 )
+  INFO root [0x00002ca8] [2021-08-08 12:36:03,467] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:51443, SOMAXCONN=511.
+  INFO root [0x00002ca8] [2021-08-08 12:36:03,467] - server-configs:
+  INFO root [0x00002ca8] [2021-08-08 12:36:03,469] - 	gameUpdateHertz : 10
+  INFO root [0x00002ca8] [2021-08-08 12:36:03,469] - 	defaultViewRadius : 80
+  INFO root [0x00002ca8] [2021-08-08 12:36:03,469] - 	defaultViewHysteresisArea : 5
+  INFO root [0x00002ca8] [2021-08-08 12:36:03,469] - 	entryScriptFile : kbemain
+  INFO root [0x00002ca8] [2021-08-08 12:36:03,469] - 	internalTcpAddr : 192.168.56.1:51443
+  INFO root [0x00002ca8] [2021-08-08 12:36:03,469] - 	componentID : 8001
+  INFO root [0x00002ca8] [2021-08-08 12:36:03,577] - Components::findLogger: found logger, addr:192.168.56.1:51427
+  INFO root [0x00002ca8] [2021-08-08 12:36:03,577] - Components::addComponent: reset orderLog, uid=48140!
+  INFO root [0x00002ca8] [2021-08-08 12:36:03,577] - Components::addComponent[logger], uid=48140, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00002ca8] [2021-08-08 12:36:03,599] - ---- cellapp Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: C9FCABE153AC3D64A8F240810ADA666D. Config: Debug X64. Built: 12:09:28 May 16 2021. AppID: 8001. UID: 48140. PID: 8280 ----
+  INFO root [0x00002ca8] [2021-08-08 12:36:03,599] - Server utente:         Intel(R) Core(TM) i5-2300 CPU @ 2.80GHz with 23045024kB RAM
+  INFO root [0x00002ca8] [2021-08-08 12:36:03,608] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00002ca8] [2021-08-08 12:36:03,608] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x00002ca8] [2021-08-08 12:36:04,172] - Script::install(): is successfully, Python=(3.7.3 (heads/master-dirty:5283b9b85, May 16 2021, 12:07:54) [MSC v.1928 64 bit (AMD64)])!
+  INFO root [0x00002ca8] [2021-08-08 12:36:04,172] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00002ca8] [2021-08-08 12:36:05,258] - loaded component-script:Test(3).
+ DEBUG root [0x00002ca8] [2021-08-08 12:36:05,258] - loaded component-script:TestNoBase(4).
+ DEBUG root [0x00002ca8] [2021-08-08 12:36:05,278] - loaded entity-script:Avatar(2).
+ DEBUG root [0x00002ca8] [2021-08-08 12:36:05,278] - loaded entity-script:Monster(5).
+ DEBUG root [0x00002ca8] [2021-08-08 12:36:05,278] - loaded entity-script:NPC(6).
+ DEBUG root [0x00002ca8] [2021-08-08 12:36:05,278] - loaded entity-script:Gate(7).
+ DEBUG root [0x00002ca8] [2021-08-08 12:36:05,289] - loaded entity-script:Space(9).
+ DEBUG root [0x00002ca8] [2021-08-08 12:36:05,289] - loaded entity-script:SpaceDuplicate(10).
+ DEBUG root [0x00002ca8] [2021-08-08 12:36:05,289] - loaded entity-script:SpawnPoint(11).
+  INFO root [0x00002ca8] [2021-08-08 12:36:05,289] - TelnetServer server is running on port 50000
+  INFO root [0x00002ca8] [2021-08-08 12:36:06,725] - ---- cellapp is running ----
+ DEBUG root [0x00002ca8] [2021-08-08 12:36:06,767] - Components::process(): Request for the process of identity...
+  WARN root [0x00002ca8] [2021-08-08 12:36:13,017] - Forwarding logs to logger[192.168.56.1:51427/0/0/0]...

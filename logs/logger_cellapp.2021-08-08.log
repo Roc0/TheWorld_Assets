@@ -1,0 +1,41 @@
+    INFO    cellapp-1 48140 8001  [2021-08-08 12:36:03 424] - -----------------------------------------------------------------------------------------
+
+
+    INFO    cellapp-1 48140 8001  [2021-08-08 12:36:03 432] - Resmgr::initialize: KBE_ROOT=D:/TheWorld/KBEngine/kbengine/
+    INFO    cellapp-1 48140 8001  [2021-08-08 12:36:03 432] - Resmgr::initialize: KBE_RES_PATH=D:/TheWorld/KBEngine/kbengine/kbe/res/;D:/TheWorld/Client/TheWorld_Assets/;D:/TheWorld/Client/TheWorld_Assets/scripts/;D:/TheWorld/Client/TheWorld_Assets/res/
+    INFO    cellapp-1 48140 8001  [2021-08-08 12:36:03 434] - Resmgr::initialize: KBE_BIN_PATH=D:/TheWorld/KBEngine/kbengine/kbe/bin/server/
+    INFO    cellapp-1 48140 8001  [2021-08-08 12:36:03 468] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:51443 )
+    INFO    cellapp-1 48140 8001  [2021-08-08 12:36:03 468] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:51443, SOMAXCONN=511.
+    INFO    cellapp-1 48140 8001  [2021-08-08 12:36:03 469] - server-configs:
+    INFO    cellapp-1 48140 8001  [2021-08-08 12:36:03 469] - 	gameUpdateHertz : 10
+    INFO    cellapp-1 48140 8001  [2021-08-08 12:36:03 470] - 	defaultViewRadius : 80
+    INFO    cellapp-1 48140 8001  [2021-08-08 12:36:03 470] - 	defaultViewHysteresisArea : 5
+    INFO    cellapp-1 48140 8001  [2021-08-08 12:36:03 470] - 	entryScriptFile : kbemain
+    INFO    cellapp-1 48140 8001  [2021-08-08 12:36:03 470] - 	internalTcpAddr : 192.168.56.1:51443
+    INFO    cellapp-1 48140 8001  [2021-08-08 12:36:03 471] - 	componentID : 8001
+    INFO    cellapp-1 48140 8001  [2021-08-08 12:36:03 578] - Components::findLogger: found logger, addr:192.168.56.1:51427
+    INFO    cellapp-1 48140 8001  [2021-08-08 12:36:03 578] - Components::addComponent: reset orderLog, uid=48140!
+    INFO    cellapp-1 48140 8001  [2021-08-08 12:36:03 579] - Components::addComponent[logger], uid=48140, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 48140 8001  [2021-08-08 12:36:03 605] - ---- cellapp Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: C9FCABE153AC3D64A8F240810ADA666D. Config: Debug X64. Built: 12:09:28 May 16 2021. AppID: 8001. UID: 48140. PID: 8280 ----
+    INFO    cellapp-1 48140 8001  [2021-08-08 12:36:03 607] - Server utente:         Intel(R) Core(TM) i5-2300 CPU @ 2.80GHz with 23045024kB RAM
+    INFO    cellapp-1 48140 8001  [2021-08-08 12:36:03 609] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    cellapp-1 48140 8001  [2021-08-08 12:36:03 609] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO    cellapp-1 48140 8001  [2021-08-08 12:36:04 179] - Script::install(): is successfully, Python=(3.7.3 (heads/master-dirty:5283b9b85, May 16 2021, 12:07:54) [MSC v.1928 64 bit (AMD64)])!
+    INFO    cellapp-1 48140 8001  [2021-08-08 12:36:04 179] - Script::install(): KBExtra is successfully!
+   DEBUG    cellapp-1 48140 8001  [2021-08-08 12:36:05 259] - loaded component-script:Test(3).
+   DEBUG    cellapp-1 48140 8001  [2021-08-08 12:36:05 264] - loaded component-script:TestNoBase(4).
+   DEBUG    cellapp-1 48140 8001  [2021-08-08 12:36:05 283] - loaded entity-script:Avatar(2).
+   DEBUG    cellapp-1 48140 8001  [2021-08-08 12:36:05 285] - loaded entity-script:Monster(5).
+   DEBUG    cellapp-1 48140 8001  [2021-08-08 12:36:05 285] - loaded entity-script:NPC(6).
+   DEBUG    cellapp-1 48140 8001  [2021-08-08 12:36:05 285] - loaded entity-script:Gate(7).
+   DEBUG    cellapp-1 48140 8001  [2021-08-08 12:36:05 291] - loaded entity-script:Space(9).
+   DEBUG    cellapp-1 48140 8001  [2021-08-08 12:36:05 292] - loaded entity-script:SpaceDuplicate(10).
+   DEBUG    cellapp-1 48140 8001  [2021-08-08 12:36:05 293] - loaded entity-script:SpawnPoint(11).
+    INFO    cellapp-1 48140 8001  [2021-08-08 12:36:05 294] - TelnetServer server is running on port 50000
+    INFO    cellapp-1 48140 8001  [2021-08-08 12:36:06 727] - ---- cellapp is running ----
+   DEBUG    cellapp-1 48140 8001  [2021-08-08 12:36:06 773] - Components::process(): Request for the process of identity...
+ WARNING    cellapp-1 48140 8001  [2021-08-08 12:36:13 021] - EntityApp::checkTickPeriod: tick took 6294% (6.29 seconds)!
+    INFO    cellapp-1 48140 8001  [2021-08-08 12:36:14 042] - Components::findComponents: find dbmgr(1)...
+ WARNING    cellapp-1 48140 8001  [2021-08-08 12:36:15 088] - EntityApp::checkTickPeriod: tick took 1146% (1.15 seconds)!
+    INFO    cellapp-1 48140 8001  [2021-08-08 12:36:16 126] - Components::findComponents: find dbmgr(2)...
+ WARNING    cellapp-1 48140 8001  [2021-08-08 12:36:17 161] - EntityApp::checkTickPeriod: tick took 1127% (1.13 seconds)!

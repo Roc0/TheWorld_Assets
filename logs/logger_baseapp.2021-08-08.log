@@ -1,0 +1,46 @@
+    INFO    baseapp-1 48140 7001  [2021-08-08 12:36:01 516] - -----------------------------------------------------------------------------------------
+
+
+    INFO    baseapp-1 48140 7001  [2021-08-08 12:36:01 518] - Resmgr::initialize: KBE_ROOT=D:/TheWorld/KBEngine/kbengine/
+    INFO    baseapp-1 48140 7001  [2021-08-08 12:36:01 519] - Resmgr::initialize: KBE_RES_PATH=D:/TheWorld/KBEngine/kbengine/kbe/res/;D:/TheWorld/Client/TheWorld_Assets/;D:/TheWorld/Client/TheWorld_Assets/scripts/;D:/TheWorld/Client/TheWorld_Assets/res/
+    INFO    baseapp-1 48140 7001  [2021-08-08 12:36:01 519] - Resmgr::initialize: KBE_BIN_PATH=D:/TheWorld/KBEngine/kbengine/kbe/bin/server/
+    INFO    baseapp-1 48140 7001  [2021-08-08 12:36:01 537] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:20015 )
+    INFO    baseapp-1 48140 7001  [2021-08-08 12:36:01 537] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.56.1:20015, SOMAXCONN=511.
+    INFO    baseapp-1 48140 7001  [2021-08-08 12:36:01 543] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:20005 )
+    INFO    baseapp-1 48140 7001  [2021-08-08 12:36:01 543] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.56.1:20005, SOMAXCONN=511.
+    INFO    baseapp-1 48140 7001  [2021-08-08 12:36:01 547] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:51438 )
+    INFO    baseapp-1 48140 7001  [2021-08-08 12:36:01 547] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:51438, SOMAXCONN=511.
+    INFO    baseapp-1 48140 7001  [2021-08-08 12:36:01 548] - server-configs:
+    INFO    baseapp-1 48140 7001  [2021-08-08 12:36:01 548] - 	gameUpdateHertz : 10
+    INFO    baseapp-1 48140 7001  [2021-08-08 12:36:01 548] - 	entryScriptFile : kbemain
+    INFO    baseapp-1 48140 7001  [2021-08-08 12:36:01 548] - 	internalTcpAddr : 192.168.56.1:51438
+    INFO    baseapp-1 48140 7001  [2021-08-08 12:36:01 549] - 	externalTcpAddr : 192.168.56.1:20015
+    INFO    baseapp-1 48140 7001  [2021-08-08 12:36:01 549] - 	externalUdpAddr : 192.168.56.1:20005
+    INFO    baseapp-1 48140 7001  [2021-08-08 12:36:01 549] - 	componentID : 7001
+    INFO    baseapp-1 48140 7001  [2021-08-08 12:36:02 310] - Components::findLogger: found logger, addr:192.168.56.1:51427
+    INFO    baseapp-1 48140 7001  [2021-08-08 12:36:02 310] - Components::addComponent: reset orderLog, uid=48140!
+    INFO    baseapp-1 48140 7001  [2021-08-08 12:36:02 310] - Components::addComponent[logger], uid=48140, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 48140 7001  [2021-08-08 12:36:02 418] - ---- baseapp Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: DCFA95A4364DC44A8B8A14D3936CBE92. Config: Debug X64. Built: 12:09:11 May 16 2021. AppID: 7001. UID: 48140. PID: 14752 ----
+    INFO    baseapp-1 48140 7001  [2021-08-08 12:36:02 450] - Server utente:         Intel(R) Core(TM) i5-2300 CPU @ 2.80GHz with 23045024kB RAM
+    INFO    baseapp-1 48140 7001  [2021-08-08 12:36:02 547] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    baseapp-1 48140 7001  [2021-08-08 12:36:02 547] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO    baseapp-1 48140 7001  [2021-08-08 12:36:03 004] - Script::install(): is successfully, Python=(3.7.3 (heads/master-dirty:5283b9b85, May 16 2021, 12:07:54) [MSC v.1928 64 bit (AMD64)])!
+    INFO    baseapp-1 48140 7001  [2021-08-08 12:36:03 004] - Script::install(): KBExtra is successfully!
+   DEBUG    baseapp-1 48140 7001  [2021-08-08 12:36:03 754] - loaded component-script:Test(3).
+   DEBUG    baseapp-1 48140 7001  [2021-08-08 12:36:03 760] - loaded entity-script:Account(1).
+   DEBUG    baseapp-1 48140 7001  [2021-08-08 12:36:03 760] - loaded entity-script:Avatar(2).
+   DEBUG    baseapp-1 48140 7001  [2021-08-08 12:36:03 770] - loaded entity-script:Spaces(8).
+   DEBUG    baseapp-1 48140 7001  [2021-08-08 12:36:03 771] - loaded entity-script:Space(9).
+   DEBUG    baseapp-1 48140 7001  [2021-08-08 12:36:03 776] - loaded entity-script:SpaceDuplicate(10).
+   DEBUG    baseapp-1 48140 7001  [2021-08-08 12:36:03 777] - loaded entity-script:SpawnPoint(11).
+    INFO    baseapp-1 48140 7001  [2021-08-08 12:36:03 778] - Baseapp::initializeEnd: started resmgr tick(60s)!
+    INFO    baseapp-1 48140 7001  [2021-08-08 12:36:03 779] - TelnetServer server is running on port 40000
+    INFO    baseapp-1 48140 7001  [2021-08-08 12:36:04 889] - ---- baseapp is running ----
+   DEBUG    baseapp-1 48140 7001  [2021-08-08 12:36:04 901] - Components::process(): Request for the process of identity...
+ WARNING    baseapp-1 48140 7001  [2021-08-08 12:36:11 240] - EntityApp::checkTickPeriod: tick took 6351% (6.35 seconds)!
+    INFO    baseapp-1 48140 7001  [2021-08-08 12:36:12 334] - Components::findComponents: find dbmgr(1)...
+ WARNING    baseapp-1 48140 7001  [2021-08-08 12:36:13 500] - EntityApp::checkTickPeriod: tick took 1206% (1.21 seconds)!
+    INFO    baseapp-1 48140 7001  [2021-08-08 12:36:14 505] - Components::findComponents: find dbmgr(2)...
+ WARNING    baseapp-1 48140 7001  [2021-08-08 12:36:15 591] - EntityApp::checkTickPeriod: tick took 1186% (1.19 seconds)!
+    INFO    baseapp-1 48140 7001  [2021-08-08 12:36:16 595] - Components::findComponents: find dbmgr(3)...
+ WARNING    baseapp-1 48140 7001  [2021-08-08 12:36:17 614] - EntityApp::checkTickPeriod: tick took 1112% (1.11 seconds)!

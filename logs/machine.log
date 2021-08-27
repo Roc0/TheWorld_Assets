@@ -1,0 +1,161 @@
+  INFO root [2021-08-08 12:35:51,399] - 
+  INFO root [2021-08-08 12:35:51,440] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2021-08-08 12:35:51,761] - Resmgr::initialize: KBE_ROOT=D:/TheWorld/KBEngine/kbengine/
+  INFO root [2021-08-08 12:35:51,761] - Resmgr::initialize: KBE_RES_PATH=D:/TheWorld/KBEngine/kbengine/kbe/res/;D:/TheWorld/Client/TheWorld_Assets/;D:/TheWorld/Client/TheWorld_Assets/scripts/;D:/TheWorld/Client/TheWorld_Assets/res/
+  INFO root [2021-08-08 12:35:51,761] - Resmgr::initialize: KBE_BIN_PATH=D:/TheWorld/KBEngine/kbengine/kbe/bin/server/
+  INFO root [2021-08-08 12:35:51,942] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:20099 )
+  INFO root [2021-08-08 12:35:51,942] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.56.1:20099, SOMAXCONN=5.
+  INFO root [2021-08-08 12:35:51,972] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:51420 )
+  INFO root [2021-08-08 12:35:51,980] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:51420, SOMAXCONN=5.
+  INFO root [2021-08-08 12:35:51,980] - server-configs:
+  INFO root [2021-08-08 12:35:51,980] - 	internalTcpAddr : 192.168.56.1:51420
+  INFO root [2021-08-08 12:35:51,980] - 	componentID : 1000
+  INFO root [2021-08-08 12:35:52,364] - ---- machine Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 938658819307A206ACFB2141C0FE9847. Config: Debug X64. Built: 12:08:27 May 16 2021. AppID: 1000. UID: 48140. PID: 7204 ----
+  INFO root [2021-08-08 12:35:52,435] - Server utente:         Intel(R) Core(TM) i5-2300 CPU @ 2.80GHz with 23045024kB RAM
+  INFO root [2021-08-08 12:35:52,485] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2021-08-08 12:35:52,485] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2021-08-08 12:35:52,615] - EndPoint::getInterfaces: found eth0 192.168.56.1
+ DEBUG root [2021-08-08 12:35:52,615] - EndPoint::getInterfaces: found eth0 192.168.2.74
+  INFO root [2021-08-08 12:35:52,615] - Machine::findBroadcastInterface:Machine::findBroadcastInterface: Broadcast discovery receipt from 192.168.56.1.
+  INFO root [2021-08-08 12:35:52,623] - Machine::findBroadcastInterface: Confirmed 192.168.56.1 (eth0) as default broadcast route interface.
+  INFO root [2021-08-08 12:35:52,623] - Machine::initNetwork: bind broadcast successfully! addr:192.168.56.1:20086
+  INFO root [2021-08-08 12:35:53,458] - ---- machine is running ----
+  INFO root [2021-08-08 12:35:53,480] - Components::process(): Found all the components!
+  INFO root [2021-08-08 12:35:57,137] - Machine::onBroadcastInterface: added newUID 48140.
+  INFO root [2021-08-08 12:35:57,137] - Machine::onBroadcastInterface[192.168.56.1:51436/0/0/0]: uid:48140, username:utente, componentType:logger, componentID:2000, globalorderid=-1, grouporderid=-1, pid:132, intaddr:192.168.56.1, intport:51427, extaddr:192.168.56.1, extport:51426.
+  INFO root [2021-08-08 12:35:57,137] - Components::addComponent: reset orderLog, uid=48140!
+  INFO root [2021-08-08 12:35:57,137] - Components::addComponent[logger], uid=48140, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+ DEBUG root [2021-08-08 12:35:57,318] - Machine::onBroadcastInterface: logger update, pid=132, uid=48140, globalorderid=-1, grouporderid=-1!
+  WARN root [2021-08-08 12:35:57,326] - D:\TheWorld\KBEngine\kbengine.master\kbe\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 0.17 seconds
+  INFO root [2021-08-08 12:35:58,082] - Machine::onBroadcastInterface[192.168.56.1:51437/0/0/0]: uid:48140, username:utente, componentType:interfaces, componentID:3000, globalorderid=-1, grouporderid=-1, pid:8436, intaddr:192.168.56.1, intport:30099, extaddr:nonsupport, extport:0.
+  INFO root [2021-08-08 12:35:58,082] - Components::addComponent: reset orderLog, uid=48140!
+  INFO root [2021-08-08 12:35:58,082] - Components::addComponent[interfaces], uid=48140, componentID=3000, globalorderid=1, grouporderid=1, totalcount=1
+ DEBUG root [2021-08-08 12:35:58,112] - Machine::onBroadcastInterface: interfaces update, pid=8436, uid=48140, globalorderid=-1, grouporderid=-1!
+  INFO root [2021-08-08 12:35:58,474] - Machine::onFindInterfaceAddr[192.168.56.1:51438/0/0/0]: uid:48140, username:utente, componentType:baseappmgr, componentID:5000, find:logger, finderaddr:192.168.56.1, finderRecvPort:20268.
+  INFO root [2021-08-08 12:35:58,474] - Machine::onFindInterfaceAddr[192.168.56.1:51438/0/0/0]: uid:48140, username:utente, componentType:baseappmgr, componentID:5000, find:logger, finderaddr:192.168.56.1, finderRecvPort:20268.
+  INFO root [2021-08-08 12:35:59,589] - Machine::onFindInterfaceAddr[192.168.56.1:51441/0/0/0]: uid:48140, username:utente, componentType:cellappmgr, componentID:6000, find:logger, finderaddr:192.168.56.1, finderRecvPort:20144.
+  INFO root [2021-08-08 12:35:59,597] - Machine::onFindInterfaceAddr[192.168.56.1:51441/0/0/0]: uid:48140, username:utente, componentType:cellappmgr, componentID:6000, find:logger, finderaddr:192.168.56.1, finderRecvPort:20144.
+  INFO root [2021-08-08 12:35:59,710] - Machine::onBroadcastInterface[192.168.56.1:51444/0/0/0]: uid:48140, username:utente, componentType:baseappmgr, componentID:5000, globalorderid=-1, grouporderid=-1, pid:15076, intaddr:192.168.56.1, intport:51430, extaddr:nonsupport, extport:0.
+  INFO root [2021-08-08 12:35:59,710] - Components::addComponent: reset orderLog, uid=48140!
+  INFO root [2021-08-08 12:35:59,710] - Components::addComponent[baseappmgr], uid=48140, componentID=5000, globalorderid=1, grouporderid=1, totalcount=1
+ DEBUG root [2021-08-08 12:35:59,710] - Machine::onBroadcastInterface: baseappmgr update, pid=15076, uid=48140, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-08-08 12:36:00,192] - Machine::onBroadcastInterface: logger update, pid=132, uid=48140, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-08-08 12:36:00,192] - Machine::onBroadcastInterface: logger update, pid=132, uid=48140, globalorderid=-1, grouporderid=-1!
+  INFO root [2021-08-08 12:36:00,825] - Machine::onBroadcastInterface[192.168.56.1:51446/0/0/0]: uid:48140, username:utente, componentType:cellappmgr, componentID:6000, globalorderid=-1, grouporderid=-1, pid:11916, intaddr:192.168.56.1, intport:51432, extaddr:nonsupport, extport:0.
+  INFO root [2021-08-08 12:36:00,825] - Components::addComponent[cellappmgr], uid=48140, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+ DEBUG root [2021-08-08 12:36:00,956] - Machine::onBroadcastInterface: cellappmgr update, pid=11916, uid=48140, globalorderid=-1, grouporderid=-1!
+  WARN root [2021-08-08 12:36:00,956] - D:\TheWorld\KBEngine\kbengine.master\kbe\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 0.14 seconds
+ DEBUG root [2021-08-08 12:36:01,207] - Machine::onBroadcastInterface: interfaces update, pid=8436, uid=48140, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-08-08 12:36:01,207] - Machine::onBroadcastInterface: interfaces update, pid=8436, uid=48140, globalorderid=-1, grouporderid=-1!
+  INFO root [2021-08-08 12:36:02,303] - Machine::onFindInterfaceAddr[192.168.56.1:63834/0/0/0]: uid:48140, username:utente, componentType:baseapp, componentID:7001, find:logger, finderaddr:192.168.56.1, finderRecvPort:20922.
+  INFO root [2021-08-08 12:36:02,303] - Machine::onFindInterfaceAddr[192.168.56.1:63834/0/0/0]: uid:48140, username:utente, componentType:baseapp, componentID:7001, find:logger, finderaddr:192.168.56.1, finderRecvPort:20922.
+ DEBUG root [2021-08-08 12:36:02,715] - Machine::onBroadcastInterface: baseappmgr update, pid=15076, uid=48140, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-08-08 12:36:02,723] - Machine::onBroadcastInterface: baseappmgr update, pid=15076, uid=48140, globalorderid=-1, grouporderid=-1!
+  INFO root [2021-08-08 12:36:03,569] - Machine::onFindInterfaceAddr[192.168.56.1:63838/0/0/0]: uid:48140, username:utente, componentType:cellapp, componentID:8001, find:logger, finderaddr:192.168.56.1, finderRecvPort:20004.
+  INFO root [2021-08-08 12:36:03,579] - Machine::onFindInterfaceAddr[192.168.56.1:63838/0/0/0]: uid:48140, username:utente, componentType:cellapp, componentID:8001, find:logger, finderaddr:192.168.56.1, finderRecvPort:20004.
+ DEBUG root [2021-08-08 12:36:03,821] - Machine::onBroadcastInterface: cellappmgr update, pid=11916, uid=48140, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-08-08 12:36:03,821] - Machine::onBroadcastInterface: cellappmgr update, pid=11916, uid=48140, globalorderid=-1, grouporderid=-1!
+  INFO root [2021-08-08 12:36:05,218] - Machine::onBroadcastInterface[192.168.56.1:51046/0/0/0]: uid:48140, username:utente, componentType:baseapp, componentID:7001, globalorderid=-1, grouporderid=-1, pid:14752, intaddr:192.168.56.1, intport:51438, extaddr:192.168.56.1, extport:20015.
+  INFO root [2021-08-08 12:36:05,226] - Components::addComponent[baseapp], uid=48140, componentID=7001, globalorderid=3, grouporderid=1, totalcount=1
+ DEBUG root [2021-08-08 12:36:05,228] - Machine::onBroadcastInterface: baseapp update, pid=14752, uid=48140, globalorderid=-1, grouporderid=-1!
+  INFO root [2021-08-08 12:36:06,496] - Machine::onFindInterfaceAddr[192.168.56.1:59899/0/0/0]: uid:48140, username:utente, componentType:loginapp, componentID:9000, find:logger, finderaddr:192.168.56.1, finderRecvPort:20696.
+  INFO root [2021-08-08 12:36:06,506] - Machine::onFindInterfaceAddr[192.168.56.1:59899/0/0/0]: uid:48140, username:utente, componentType:loginapp, componentID:9000, find:logger, finderaddr:192.168.56.1, finderRecvPort:20696.
+  INFO root [2021-08-08 12:36:06,775] - Machine::onFindInterfaceAddr[192.168.56.1:59902/0/0/0]: uid:48140, username:utente, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.56.1, finderRecvPort:20617.
+  WARN root [2021-08-08 12:36:06,775] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-08-08 12:36:06,838] - Machine::onFindInterfaceAddr[192.168.56.1:59902/0/0/0]: uid:48140, username:utente, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.56.1, finderRecvPort:20617.
+  WARN root [2021-08-08 12:36:06,838] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-08-08 12:36:07,007] - Machine::onBroadcastInterface[192.168.56.1:59905/0/0/0]: uid:48140, username:utente, componentType:cellapp, componentID:8001, globalorderid=-1, grouporderid=-1, pid:8280, intaddr:192.168.56.1, intport:51443, extaddr:nonsupport, extport:0.
+  INFO root [2021-08-08 12:36:07,007] - Components::addComponent[cellapp], uid=48140, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+ DEBUG root [2021-08-08 12:36:07,117] - Machine::onBroadcastInterface: cellapp update, pid=8280, uid=48140, globalorderid=-1, grouporderid=-1!
+  WARN root [2021-08-08 12:36:07,117] - D:\TheWorld\KBEngine\kbengine.master\kbe\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 0.11 seconds
+  INFO root [2021-08-08 12:36:07,833] - Machine::onFindInterfaceAddr[192.168.56.1:50910/0/0/0]: uid:48140, username:utente, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.56.1, finderRecvPort:20419.
+  WARN root [2021-08-08 12:36:07,833] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-08-08 12:36:07,883] - Machine::onFindInterfaceAddr[192.168.56.1:50910/0/0/0]: uid:48140, username:utente, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.56.1, finderRecvPort:20419.
+  WARN root [2021-08-08 12:36:07,883] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+ DEBUG root [2021-08-08 12:36:08,285] - Machine::onBroadcastInterface: baseapp update, pid=14752, uid=48140, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-08-08 12:36:08,285] - Machine::onBroadcastInterface: baseapp update, pid=14752, uid=48140, globalorderid=-1, grouporderid=-1!
+  INFO root [2021-08-08 12:36:08,928] - Machine::onFindInterfaceAddr[192.168.56.1:50914/0/0/0]: uid:48140, username:utente, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.56.1, finderRecvPort:20890.
+  WARN root [2021-08-08 12:36:08,928] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-08-08 12:36:08,968] - Machine::onFindInterfaceAddr[192.168.56.1:50914/0/0/0]: uid:48140, username:utente, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.56.1, finderRecvPort:20890.
+  WARN root [2021-08-08 12:36:08,968] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-08-08 12:36:09,350] - Machine::onBroadcastInterface[192.168.56.1:50917/0/0/0]: uid:48140, username:utente, componentType:loginapp, componentID:9000, globalorderid=-1, grouporderid=-1, pid:10384, intaddr:192.168.56.1, intport:51453, extaddr:192.168.56.1, extport:20013.
+  INFO root [2021-08-08 12:36:09,350] - Components::addComponent[loginapp], uid=48140, componentID=9000, globalorderid=5, grouporderid=1, totalcount=1
+ DEBUG root [2021-08-08 12:36:09,350] - Machine::onBroadcastInterface: loginapp update, pid=10384, uid=48140, globalorderid=-1, grouporderid=-1!
+  INFO root [2021-08-08 12:36:09,943] - Machine::onFindInterfaceAddr[192.168.56.1:50918/0/0/0]: uid:48140, username:utente, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.56.1, finderRecvPort:20257.
+  WARN root [2021-08-08 12:36:09,943] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-08-08 12:36:09,973] - Machine::onFindInterfaceAddr[192.168.56.1:50918/0/0/0]: uid:48140, username:utente, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.56.1, finderRecvPort:20257.
+  WARN root [2021-08-08 12:36:09,973] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+ DEBUG root [2021-08-08 12:36:09,993] - Machine::onBroadcastInterface: cellapp update, pid=8280, uid=48140, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2021-08-08 12:36:10,114] - Machine::onBroadcastInterface: cellapp update, pid=8280, uid=48140, globalorderid=-1, grouporderid=-1!
+  INFO root [2021-08-08 12:36:11,079] - Machine::onFindInterfaceAddr[192.168.56.1:50922/0/0/0]: uid:48140, username:utente, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.56.1, finderRecvPort:20829.
+  WARN root [2021-08-08 12:36:11,079] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-08-08 12:36:11,099] - Machine::onFindInterfaceAddr[192.168.56.1:50922/0/0/0]: uid:48140, username:utente, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.56.1, finderRecvPort:20829.
+  WARN root [2021-08-08 12:36:11,099] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-08-08 12:36:12,034] - Machine::onFindInterfaceAddr[192.168.56.1:53863/0/0/0]: uid:48140, username:utente, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.56.1, finderRecvPort:20095.
+  WARN root [2021-08-08 12:36:12,034] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-08-08 12:36:12,044] - Machine::onFindInterfaceAddr[192.168.56.1:53863/0/0/0]: uid:48140, username:utente, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.56.1, finderRecvPort:20095.
+  WARN root [2021-08-08 12:36:12,044] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-08-08 12:36:12,416] - Machine::onFindInterfaceAddr[192.168.56.1:53866/0/0/0]: uid:48140, username:utente, componentType:baseapp, componentID:7001, find:dbmgr, finderaddr:192.168.56.1, finderRecvPort:20114.
+  WARN root [2021-08-08 12:36:12,424] - Machine::onFindInterfaceAddr: baseapp not found dbmgr.
+ DEBUG root [2021-08-08 12:36:12,456] - Machine::onBroadcastInterface: loginapp update, pid=10384, uid=48140, globalorderid=-1, grouporderid=-1!
+  INFO root [2021-08-08 12:36:12,465] - Machine::onFindInterfaceAddr[192.168.56.1:53866/0/0/0]: uid:48140, username:utente, componentType:baseapp, componentID:7001, find:dbmgr, finderaddr:192.168.56.1, finderRecvPort:20114.
+  WARN root [2021-08-08 12:36:12,465] - Machine::onFindInterfaceAddr: baseapp not found dbmgr.
+ DEBUG root [2021-08-08 12:36:12,497] - Machine::onBroadcastInterface: loginapp update, pid=10384, uid=48140, globalorderid=-1, grouporderid=-1!
+  INFO root [2021-08-08 12:36:13,220] - Machine::onFindInterfaceAddr[192.168.56.1:53870/0/0/0]: uid:48140, username:utente, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.56.1, finderRecvPort:20667.
+  WARN root [2021-08-08 12:36:13,220] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-08-08 12:36:13,230] - Machine::onFindInterfaceAddr[192.168.56.1:53870/0/0/0]: uid:48140, username:utente, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.56.1, finderRecvPort:20667.
+  WARN root [2021-08-08 12:36:13,230] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-08-08 12:36:14,062] - Machine::onFindInterfaceAddr[192.168.56.1:53873/0/0/0]: uid:48140, username:utente, componentType:cellapp, componentID:8001, find:dbmgr, finderaddr:192.168.56.1, finderRecvPort:20678.
+  WARN root [2021-08-08 12:36:14,064] - Machine::onFindInterfaceAddr: cellapp not found dbmgr.
+  INFO root [2021-08-08 12:36:14,064] - Machine::onFindInterfaceAddr[192.168.56.1:53874/0/0/0]: uid:48140, username:utente, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.56.1, finderRecvPort:20780.
+  WARN root [2021-08-08 12:36:14,064] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-08-08 12:36:14,072] - Machine::onFindInterfaceAddr[192.168.56.1:53873/0/0/0]: uid:48140, username:utente, componentType:cellapp, componentID:8001, find:dbmgr, finderaddr:192.168.56.1, finderRecvPort:20678.
+  WARN root [2021-08-08 12:36:14,072] - Machine::onFindInterfaceAddr: cellapp not found dbmgr.
+  INFO root [2021-08-08 12:36:14,072] - Machine::onFindInterfaceAddr[192.168.56.1:53874/0/0/0]: uid:48140, username:utente, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.56.1, finderRecvPort:20780.
+  WARN root [2021-08-08 12:36:14,074] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-08-08 12:36:14,567] - Machine::onFindInterfaceAddr[192.168.56.1:53879/0/0/0]: uid:48140, username:utente, componentType:baseapp, componentID:7001, find:dbmgr, finderaddr:192.168.56.1, finderRecvPort:20207.
+  WARN root [2021-08-08 12:36:14,567] - Machine::onFindInterfaceAddr: baseapp not found dbmgr.
+  INFO root [2021-08-08 12:36:14,577] - Machine::onFindInterfaceAddr[192.168.56.1:53879/0/0/0]: uid:48140, username:utente, componentType:baseapp, componentID:7001, find:dbmgr, finderaddr:192.168.56.1, finderRecvPort:20207.
+  WARN root [2021-08-08 12:36:14,577] - Machine::onFindInterfaceAddr: baseapp not found dbmgr.
+  INFO root [2021-08-08 12:36:15,291] - Machine::onFindInterfaceAddr[192.168.56.1:53882/0/0/0]: uid:48140, username:utente, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.56.1, finderRecvPort:20656.
+  WARN root [2021-08-08 12:36:15,291] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-08-08 12:36:15,331] - Machine::onFindInterfaceAddr[192.168.56.1:53882/0/0/0]: uid:48140, username:utente, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.56.1, finderRecvPort:20656.
+  WARN root [2021-08-08 12:36:15,331] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-08-08 12:36:16,158] - Machine::onFindInterfaceAddr[192.168.56.1:64382/0/0/0]: uid:48140, username:utente, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.56.1, finderRecvPort:20412.
+  WARN root [2021-08-08 12:36:16,158] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-08-08 12:36:16,158] - Machine::onFindInterfaceAddr[192.168.56.1:64383/0/0/0]: uid:48140, username:utente, componentType:cellapp, componentID:8001, find:dbmgr, finderaddr:192.168.56.1, finderRecvPort:20513.
+  WARN root [2021-08-08 12:36:16,158] - Machine::onFindInterfaceAddr: cellapp not found dbmgr.
+  INFO root [2021-08-08 12:36:16,158] - Machine::onFindInterfaceAddr[192.168.56.1:64382/0/0/0]: uid:48140, username:utente, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.56.1, finderRecvPort:20412.
+  WARN root [2021-08-08 12:36:16,158] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-08-08 12:36:16,158] - Machine::onFindInterfaceAddr[192.168.56.1:64383/0/0/0]: uid:48140, username:utente, componentType:cellapp, componentID:8001, find:dbmgr, finderaddr:192.168.56.1, finderRecvPort:20513.
+  WARN root [2021-08-08 12:36:16,158] - Machine::onFindInterfaceAddr: cellapp not found dbmgr.
+  INFO root [2021-08-08 12:36:16,486] - Machine::onFindInterfaceAddr[192.168.56.1:64388/0/0/0]: uid:48140, username:utente, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.56.1, finderRecvPort:20689.
+  WARN root [2021-08-08 12:36:16,486] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-08-08 12:36:16,486] - Machine::onFindInterfaceAddr[192.168.56.1:64388/0/0/0]: uid:48140, username:utente, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.56.1, finderRecvPort:20689.
+  WARN root [2021-08-08 12:36:16,486] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-08-08 12:36:16,611] - Machine::onFindInterfaceAddr[192.168.56.1:64391/0/0/0]: uid:48140, username:utente, componentType:baseapp, componentID:7001, find:dbmgr, finderaddr:192.168.56.1, finderRecvPort:20045.
+  WARN root [2021-08-08 12:36:16,611] - Machine::onFindInterfaceAddr: baseapp not found dbmgr.
+  INFO root [2021-08-08 12:36:16,611] - Machine::onFindInterfaceAddr[192.168.56.1:64391/0/0/0]: uid:48140, username:utente, componentType:baseapp, componentID:7001, find:dbmgr, finderaddr:192.168.56.1, finderRecvPort:20045.
+  WARN root [2021-08-08 12:36:16,611] - Machine::onFindInterfaceAddr: baseapp not found dbmgr.
+  INFO root [2021-08-08 12:36:17,395] - Machine::onFindInterfaceAddr[192.168.56.1:64394/0/0/0]: uid:48140, username:utente, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.56.1, finderRecvPort:20595.
+  WARN root [2021-08-08 12:36:17,395] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-08-08 12:36:17,395] - Machine::onFindInterfaceAddr[192.168.56.1:64394/0/0/0]: uid:48140, username:utente, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.56.1, finderRecvPort:20595.
+  WARN root [2021-08-08 12:36:17,395] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2021-08-08 12:36:18,191] - Machine::onFindInterfaceAddr[192.168.56.1:59125/0/0/0]: uid:48140, username:utente, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.56.1, finderRecvPort:20430.
+  WARN root [2021-08-08 12:36:18,191] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-08-08 12:36:18,207] - Machine::onFindInterfaceAddr[192.168.56.1:59125/0/0/0]: uid:48140, username:utente, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.56.1, finderRecvPort:20430.
+  WARN root [2021-08-08 12:36:18,207] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2021-08-08 12:36:18,238] - Machine::onFindInterfaceAddr[192.168.56.1:59127/0/0/0]: uid:48140, username:utente, componentType:cellapp, componentID:8001, find:dbmgr, finderaddr:192.168.56.1, finderRecvPort:20636.
+  WARN root [2021-08-08 12:36:18,238] - Machine::onFindInterfaceAddr: cellapp not found dbmgr.
+  INFO root [2021-08-08 12:36:18,363] - Machine::onFindInterfaceAddr[192.168.56.1:59127/0/0/0]: uid:48140, username:utente, componentType:cellapp, componentID:8001, find:dbmgr, finderaddr:192.168.56.1, finderRecvPort:20636.
+  WARN root [2021-08-08 12:36:18,363] - Machine::onFindInterfaceAddr: cellapp not found dbmgr.
+  INFO root [2021-08-08 12:36:18,598] - Machine::onFindInterfaceAddr[192.168.56.1:59131/0/0/0]: uid:48140, username:utente, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.56.1, finderRecvPort:20501.
+  WARN root [2021-08-08 12:36:18,598] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-08-08 12:36:18,613] - Machine::onFindInterfaceAddr[192.168.56.1:59131/0/0/0]: uid:48140, username:utente, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.56.1, finderRecvPort:20501.
+  WARN root [2021-08-08 12:36:18,613] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2021-08-08 12:36:18,629] - Machine::onFindInterfaceAddr[192.168.56.1:59133/0/0/0]: uid:48140, username:utente, componentType:baseapp, componentID:7001, find:dbmgr, finderaddr:192.168.56.1, finderRecvPort:20909.
+  WARN root [2021-08-08 12:36:18,629] - Machine::onFindInterfaceAddr: baseapp not found dbmgr.
+  INFO root [2021-08-08 12:36:18,769] - Machine::onFindInterfaceAddr[192.168.56.1:59133/0/0/0]: uid:48140, username:utente, componentType:baseapp, componentID:7001, find:dbmgr, finderaddr:192.168.56.1, finderRecvPort:20909.
+  WARN root [2021-08-08 12:36:18,769] - Machine::onFindInterfaceAddr: baseapp not found dbmgr.

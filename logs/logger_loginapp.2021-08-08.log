@@ -1,0 +1,29 @@
+    INFO   loginapp-1 48140 9000  [2021-08-08 12:36:05 263] - -----------------------------------------------------------------------------------------
+
+
+    INFO   loginapp-1 48140 9000  [2021-08-08 12:36:05 302] - Resmgr::initialize: KBE_ROOT=D:/TheWorld/KBEngine/kbengine/
+    INFO   loginapp-1 48140 9000  [2021-08-08 12:36:05 303] - Resmgr::initialize: KBE_RES_PATH=D:/TheWorld/KBEngine/kbengine/kbe/res/;D:/TheWorld/Client/TheWorld_Assets/;D:/TheWorld/Client/TheWorld_Assets/scripts/;D:/TheWorld/Client/TheWorld_Assets/res/
+    INFO   loginapp-1 48140 9000  [2021-08-08 12:36:05 303] - Resmgr::initialize: KBE_BIN_PATH=D:/TheWorld/KBEngine/kbengine/kbe/bin/server/
+    INFO   loginapp-1 48140 9000  [2021-08-08 12:36:05 337] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:20013 )
+    INFO   loginapp-1 48140 9000  [2021-08-08 12:36:05 337] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.56.1:20013, SOMAXCONN=511.
+    INFO   loginapp-1 48140 9000  [2021-08-08 12:36:05 342] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:51453 )
+    INFO   loginapp-1 48140 9000  [2021-08-08 12:36:05 342] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:51453, SOMAXCONN=511.
+    INFO   loginapp-1 48140 9000  [2021-08-08 12:36:05 343] - server-configs:
+    INFO   loginapp-1 48140 9000  [2021-08-08 12:36:05 343] - 	internalTcpAddr : 192.168.56.1:51453
+    INFO   loginapp-1 48140 9000  [2021-08-08 12:36:05 343] - 	externalTcpAddr : 192.168.56.1:20013
+    INFO   loginapp-1 48140 9000  [2021-08-08 12:36:05 343] - 	componentID : 9000
+    INFO   loginapp-1 48140 9000  [2021-08-08 12:36:06 508] - Components::findLogger: found logger, addr:192.168.56.1:51427
+    INFO   loginapp-1 48140 9000  [2021-08-08 12:36:06 509] - Components::addComponent: reset orderLog, uid=48140!
+    INFO   loginapp-1 48140 9000  [2021-08-08 12:36:06 509] - Components::addComponent[logger], uid=48140, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 48140 9000  [2021-08-08 12:36:06 727] - ---- loginapp Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: CE9FF53F4E85387EE4455C7191269324. Config: Debug X64. Built: 12:08:51 May 16 2021. AppID: 9000. UID: 48140. PID: 10384 ----
+    INFO   loginapp-1 48140 9000  [2021-08-08 12:36:06 760] - Server utente:         Intel(R) Core(TM) i5-2300 CPU @ 2.80GHz with 23045024kB RAM
+    INFO   loginapp-1 48140 9000  [2021-08-08 12:36:06 774] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO   loginapp-1 48140 9000  [2021-08-08 12:36:06 775] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO   loginapp-1 48140 9000  [2021-08-08 12:36:07 078] - Script::install(): is successfully, Python=(3.7.3 (heads/master-dirty:5283b9b85, May 16 2021, 12:07:54) [MSC v.1928 64 bit (AMD64)])!
+    INFO   loginapp-1 48140 9000  [2021-08-08 12:36:07 079] - Script::install(): KBExtra is successfully!
+  S_INFO   loginapp-1 48140 9000  [2021-08-08 12:36:07 114] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO   loginapp-1 48140 9000  [2021-08-08 12:36:07 115] - TelnetServer server is running on port 31000
+ WARNING   loginapp-1 48140 9000  [2021-08-08 12:36:07 448] - D:\TheWorld\KBEngine\kbengine.master\kbe\src\server\loginapp\loginapp.cpp:171: Profile scriptCall took 0.33 seconds
+    INFO   loginapp-1 48140 9000  [2021-08-08 12:36:09 190] - ---- loginapp is running ----
+   DEBUG   loginapp-1 48140 9000  [2021-08-08 12:36:09 191] - Components::process(): Request for the process of identity...
+    INFO   loginapp-1 48140 9000  [2021-08-08 12:36:16 486] - Components::findComponents: find dbmgr(1)...

@@ -1,0 +1,51 @@
+  INFO root [2021-08-08 12:35:56,594] - 
+  INFO root [2021-08-08 12:35:56,594] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2021-08-08 12:35:56,594] - Resmgr::initialize: KBE_ROOT=D:/TheWorld/KBEngine/kbengine/
+  INFO root [2021-08-08 12:35:56,594] - Resmgr::initialize: KBE_RES_PATH=D:/TheWorld/KBEngine/kbengine/kbe/res/;D:/TheWorld/Client/TheWorld_Assets/;D:/TheWorld/Client/TheWorld_Assets/scripts/;D:/TheWorld/Client/TheWorld_Assets/res/
+  INFO root [2021-08-08 12:35:56,594] - Resmgr::initialize: KBE_BIN_PATH=D:/TheWorld/KBEngine/kbengine/kbe/bin/server/
+  INFO root [2021-08-08 12:35:56,615] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:51429 )
+  INFO root [2021-08-08 12:35:56,615] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:51429, SOMAXCONN=511.
+  INFO root [2021-08-08 12:35:56,615] - server-configs:
+  INFO root [2021-08-08 12:35:56,615] - 	internalTcpAddr : 192.168.56.1:51429
+  INFO root [2021-08-08 12:35:56,615] - 	componentID : 4000
+  INFO root [2021-08-08 12:35:58,153] - ---- dbmgr Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 11178A1C367680938C8E416B64844ACD. Config: Debug X64. Built: 12:08:35 May 16 2021. AppID: 4000. UID: 48140. PID: 9328 ----
+  INFO root [2021-08-08 12:35:58,153] - Server utente:         Intel(R) Core(TM) i5-2300 CPU @ 2.80GHz with 23045024kB RAM
+  INFO root [2021-08-08 12:35:58,153] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2021-08-08 12:35:58,153] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2021-08-08 12:35:58,454] - Script::install(): is successfully, Python=(3.7.3 (heads/master-dirty:5283b9b85, May 16 2021, 12:07:54) [MSC v.1928 64 bit (AMD64)])!
+  INFO root [2021-08-08 12:35:58,454] - Script::install(): KBExtra is successfully!
+  INFO root [2021-08-08 12:36:01,489] - Dbmgr::initializeEnd: digest(46596D3750651E9F679C7775CD577E35)
+S_INFO root [2021-08-08 12:36:01,489] - onDBMgrReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2021-08-08 12:36:01,489] - TelnetServer server is running on port 32000
+  INFO root [2021-08-08 12:36:01,489] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(interfaces), chargeType:(interfaces).
+  WARN root [2021-08-08 12:36:02,783] - DBUtil::initialize: db(default) password is not encrypted!
+please use password(rsa):
+58469FCA8545E1C0421AA77198F6EA4971CBE049CB6727BF8C689B849AB6963DE9FE9898D10C6FA543A3421441142594FFE2FC6F0392D629BC3892FB390DA98EA0F5DD7D1BFEBC24783276E7C3B419A258384DD3A3B1893CCD61F27EC49850C26324555CC3FB525B6EAC39BF7890A412604420A1A8FF1A415DEEFDE2AC79D5B2
+ DEBUG root [2021-08-08 12:36:02,805] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ ERROR root [2021-08-08 12:36:07,067] - DBInterfaceMysql::attach: mysql_errno=2003, mysql_error=Can't connect to MySQL server on 'localhost' (10061)
+ ERROR root [2021-08-08 12:36:07,441] - DBUtil::createInterface: attach to database failed!
+	dbinterface=0x74504fe428
+	args=interface=default, dbtype=mysql, ip=localhost, port=3306, currdatabase=kbe, username=kbe, connected=no.
+
+ ERROR root [2021-08-08 12:36:07,469] - Dbmgr::initDB(): can't create dbInterface!
+  WARN root [2021-08-08 12:36:07,521] - D:\TheWorld\KBEngine\kbengine.master\kbe\src\server\dbmgr\dbmgr.cpp:306: Profile scriptCall took 6.04 seconds
+ ERROR root [2021-08-08 12:36:07,541] - app::initialize(): initialization failed!
+ DEBUG root [2021-08-08 12:36:07,581] - ThreadPool::destroy(): starting size 0.
+ DEBUG root [2021-08-08 12:36:08,054] - ThreadPool::destroy(): successfully!
+  INFO root [2021-08-08 12:36:08,084] - Script::uninstall(): is successfully!
+ DEBUG root [2021-08-08 12:36:08,084] - ThreadPool::destroy(): starting size 2.
+  WARN root [2021-08-08 12:36:08,406] - ThreadPool::destroy(): waiting for thread(2)[0x18fd65e3810,0x18fd65e38b0,], try=1
+ DEBUG root [2021-08-08 12:36:09,049] - TPThread::~TPThread(): 0x18fd65e3810
+ DEBUG root [2021-08-08 12:36:09,049] - TPThread::~TPThread(): 0x18fd65e38b0
+ DEBUG root [2021-08-08 12:36:09,049] - ThreadPool::destroy(): successfully!
+ DEBUG root [2021-08-08 12:36:09,049] - Bundle::destroyObjPool(): size 14.
+ DEBUG root [2021-08-08 12:36:09,049] - Channel::destroyObjPool(): size 15.
+ DEBUG root [2021-08-08 12:36:09,049] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2021-08-08 12:36:09,049] - UDPPacket::destroyObjPool(): size 14.
+ DEBUG root [2021-08-08 12:36:09,049] - EndPoint::destroyObjPool(): size 15.
+ DEBUG root [2021-08-08 12:36:09,057] - Address::destroyObjPool(): size 0.
+ DEBUG root [2021-08-08 12:36:09,057] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2021-08-08 12:36:09,057] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2021-08-08 12:36:15,923] - EventDispatcher()::~EventDispatcher: Num timers = 1
